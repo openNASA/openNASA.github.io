@@ -1,0 +1,31 @@
+---
+author: jjparker
+comments: false
+date: 2013-04-17 18:38:46+00:00
+layout: post
+slug: software-release-general-mission-analysis-tool-r2013a
+Title: 'Software Release: General Mission Analysis Tool R2013a'
+wordpress_id: 8127
+categories:
+- OpenGov
+---
+
+Do you want to go Mars but don't know when to leave or how much to bring?  Do you want to study Earth protection by planning a mission to a near-Earth asteroid?  Do you want to place a telescope in an orbit that is always looking outwards from the Earth and Sun?  The General Mission Analysis Tool (GMAT) is an open-source space mission design tool to help you answer these and many other space flight challenges.  GMAT is developed by a team of NASA, private industry, and public and private contributors.  It is used for real-world engineering studies, as a tool for education and public engagement, and (after completion of final acceptance testing in Sept. 2013) to fly operational spacecraft.  In addition,  we are proud to announce a formal partnership between NASA and the Korean Aerospace Research Institute (KARI) to co-develop GMAT. You can download GMAT here: [Windows Installer](http://sourceforge.net/projects/gmat/files/GMAT/GMAT-R2013a/gmat-winInstaller-i586-R2013a.exe/download), [Source Code](http://sourceforge.net/projects/gmat/files/GMAT/GMAT-R2013a/gmat-src-R2013a.zip/download).
+
+GMAT R2013a is the first official, production-quality release of GMAT.  It is rigorously tested with nearly 11000 automated scripts tests executed nightly and over 2400 automated GUI tests executed weekly.   GMAT has already been used to support the LCROSS (Lunar Crater Observation and Sensing Satellite), ARTEMIS (Acceleration, Reconnection, Turbulence and Electrodynamics of the Moon’s Interaction with the Sun) ,  LRO (Lunar Reconnaissance Orbiter),  MMS (Magnetospheric Multiscale Mission),  and OSIRIS-REx (Origins Spectral Interpretation Resource Identification Security Regolith Explorer) missions and numerous mission concepts.
+
+Here are a few of the changes and improvements in R2013a:
+
+
+
+	
+  *  580 pages of quality end user documentation in [html](http://gmat.sourceforge.net/docs/R2013a/html/index.html)  and [PDF](http://gmat.sourceforge.net/docs/R2013a/help-letter.pdf) formats
+
+	
+  * Over 600 [bug fixes](http://li64-187.members.linode.com:8080/issues/?filter=11803)
+
+	
+  * GMAT is now licensed using the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+For a full description of GMAT R2013a, see the [Release Notes](http://gmat.sourceforge.net/docs/R2013a/html/ReleaseNotes.html#ReleaseNotesR2013a).
