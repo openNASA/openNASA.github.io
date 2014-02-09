@@ -45,7 +45,7 @@ def preview():
 def ghb():
     build()
     local('ghp-import output')
-    local('git push origin gh-pages')
+    local('git push origin gh-pages:master')
     
     
 
