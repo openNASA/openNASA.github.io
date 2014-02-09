@@ -42,10 +42,10 @@ def preview():
     local('pelican -s publishconf.py')
     
 def ghb():
-    build()
+    #build()
     commit = prompt("Enter your commit text:")
     local('git commit -a -m "%s"' % commit)
-    local('git checkout gh-pages')
+    local('git checkout -b gh-pages')
     local('rm -rf !(output)')
     local('mv output .')
 
