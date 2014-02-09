@@ -1,6 +1,6 @@
 Title: Introducing data.nasa.gov
 Date: 2011-08-30 13:14
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: introducing-data-nasa-gov
 

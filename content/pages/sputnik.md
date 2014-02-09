@@ -1,6 +1,6 @@
 Title: Sputnik
 Date: 2013-11-04 10:32
-Author: nskytlan
+Author: Nick Skytland
 Slug: sputnik
 
 ![sputnik\_small][]

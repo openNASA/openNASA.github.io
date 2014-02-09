@@ -1,6 +1,6 @@
 Title: Women@NASA:  Women, Innovation, and Aerospace
 Date: 2012-03-08 19:03
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Liquid Galaxy, OCIO, STEM, women
 Slug: womennasa-women-innovation-and-aerospace-2

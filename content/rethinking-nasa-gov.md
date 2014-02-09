@@ -1,6 +1,6 @@
 Title: Rethinking NASA.gov
 Date: 2012-11-21 16:48
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Tags: digital strategy, nasa.gov, web
 Slug: rethinking-nasa-gov

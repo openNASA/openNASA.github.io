@@ -1,6 +1,6 @@
 Title: The Next Rocket Scientist: YOU
 Date: 2011-03-12 17:05
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: Galaxy Zoo, GLXP, Gov 2.0, Innocentive, NASA, NEEMO, Opengov, Virgin Galactic, Zooiniverse
 Slug: the-next-rocket-scientist-you

@@ -1,6 +1,6 @@
 Title: Innovation, Inspiration, and Integrity
 Date: 2012-05-16 11:49
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: chief scientist, Innovation, Inspiration, integrity, Open Data
 Slug: innovation-inspiration-and-integrity

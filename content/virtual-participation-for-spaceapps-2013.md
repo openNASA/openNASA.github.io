@@ -1,6 +1,6 @@
 Title: Virtual Participation for #SpaceApps 2013
 Date: 2013-04-13 17:35
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Slug: virtual-participation-for-spaceapps-2013
 

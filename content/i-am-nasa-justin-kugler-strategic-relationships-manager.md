@@ -1,6 +1,6 @@
 Title: I Am NASA: Justin Kugler, Strategic Relationships Manager
 Date: 2012-02-16 18:45
-Author: jkugler
+Author: Justin Kugler
 Category: OpenGov
 Tags: collaboration, Education, engineering, I am NASA, Inspiration, ISS, NASA, Science
 Slug: i-am-nasa-justin-kugler-strategic-relationships-manager

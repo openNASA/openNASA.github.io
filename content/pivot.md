@@ -1,6 +1,6 @@
 Title: NASA Open Government Team Broadens Focus to Innovation
 Date: 2013-01-28 09:57
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: pivot
 

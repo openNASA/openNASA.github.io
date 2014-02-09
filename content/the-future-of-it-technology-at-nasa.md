@@ -1,6 +1,6 @@
 Title: The Future of Information Technology at NASA
 Date: 2011-08-15 13:55
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: the-future-of-it-technology-at-nasa
 

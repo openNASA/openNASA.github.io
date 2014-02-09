@@ -1,6 +1,6 @@
 Title: Farewell
 Date: 2013-06-14 11:21
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Slug: farewell
 

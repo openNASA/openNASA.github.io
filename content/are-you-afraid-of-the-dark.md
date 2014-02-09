@@ -1,6 +1,6 @@
 Title: Are you afraid of the dark?
 Date: 2012-07-05 10:12
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Slug: are-you-afraid-of-the-dark
 

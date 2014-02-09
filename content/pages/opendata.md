@@ -1,6 +1,6 @@
 Title: Data
 Date: 2011-04-05 22:25
-Author: nskytlan
+Author: Nick Skytland
 Slug: opendata
 
 [![][]][]

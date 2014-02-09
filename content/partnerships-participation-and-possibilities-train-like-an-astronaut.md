@@ -1,6 +1,6 @@
 Title: Partnerships, participation, and possibilities: Train Like an Astronaut
 Date: 2011-04-02 14:48
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Education, Outreach
 Slug: partnerships-participation-and-possibilities-train-like-an-astronaut

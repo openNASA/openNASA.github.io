@@ -1,6 +1,6 @@
 Title: What does it really mean to innovate?  
 Date: 2012-08-24 15:23
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: Innovation, International Space Apps Challenge
 Slug: what-does-it-really-mean-to-innovate

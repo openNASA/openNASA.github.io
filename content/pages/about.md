@@ -1,6 +1,6 @@
 Title: About
 Date: 2011-04-05 03:09
-Author: nskytlan
+Author: Nick Skytland
 Slug: about
 
 ![OpenGov][]

@@ -1,6 +1,6 @@
 Title: A Year in Review from #NASA #OpenGov
 Date: 2011-12-29 21:05
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: year-in-review
 

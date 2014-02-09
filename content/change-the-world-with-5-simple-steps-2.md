@@ -1,6 +1,6 @@
 Title: Change the world with 5 simple steps 
 Date: 2013-04-12 23:04
-Author: bevelasq
+Author: Brenda Velasquez
 Category: OpenGov
 Tags: citizen engagement, collaboration, International Space Apps Challenge
 Slug: change-the-world-with-5-simple-steps-2

@@ -1,6 +1,6 @@
 Title: I Am NASA: Kristen Painting, Crew Instructor
 Date: 2012-01-16 21:29
-Author: kpaintin
+Author: Kristen Painting
 Category: OpenGov
 Tags: crew training, engagement, I am NASA, ISS
 Slug: i-am-nasa-kristen-painting-crew-instructor

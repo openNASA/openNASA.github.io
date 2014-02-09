@@ -1,6 +1,6 @@
 Title: Hello World!
 Date: 2013-07-16 11:46
-Author: samwilkinson
+Author: Sam Wilkinson
 Category: OpenGov
 Slug: hello-world
 

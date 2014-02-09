@@ -1,6 +1,6 @@
 Title: Be a Hardware Hero
 Date: 2013-04-15 14:20
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: be-a-hardware-hero
 

@@ -1,6 +1,6 @@
 Title: The Space to Collaborate, the Space to Share
 Date: 2012-03-28 15:18
-Author: hjstephe
+Author: Haley Stephenson
 Category: OpenGov
 Tags: ASK the Academy, collaboration, collaborative spaces, telework, Virtual
 Slug: the-space-to-collaborate-the-space-to-share

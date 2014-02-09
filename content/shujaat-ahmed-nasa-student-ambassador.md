@@ -1,6 +1,6 @@
 Title: Shujaat Ahmed: NASA Student Ambassador
 Date: 2012-03-14 11:44
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Education, internship, Student Ambassadors
 Slug: shujaat-ahmed-nasa-student-ambassador

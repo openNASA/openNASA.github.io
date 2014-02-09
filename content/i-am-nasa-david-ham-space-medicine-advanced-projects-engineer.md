@@ -1,6 +1,6 @@
 Title: I am NASA: David Ham, Space Medicine Advanced Projects Engineer
 Date: 2012-03-23 10:03
-Author: dham1
+Author: David Ham
 Category: OpenGov
 Tags: Advanced Projects, humans in space, I am NASA, life sciences, medicine, prototypes, Space Medicine
 Slug: i-am-nasa-david-ham-space-medicine-advanced-projects-engineer

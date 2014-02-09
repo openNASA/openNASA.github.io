@@ -1,6 +1,6 @@
 Title: NASA Joins Yahoo for 'Flight Readiness Review' of Space Apps Challenges
 Date: 2012-03-23 16:49
-Author: kpaintin
+Author: Kristen Painting
 Category: OpenGov
 Tags: challenges, collaboration, space apps, yahoo
 Slug: nasa-joins-yahoo-for-flight-readiness-review-of-space-apps-challenges

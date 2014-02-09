@@ -1,6 +1,6 @@
 Title: Open Q&A at FedScoop’s Citizen Engagement & OpenGov Summit
 Date: 2011-05-10 20:14
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: open-qa-on-fedscoop
 

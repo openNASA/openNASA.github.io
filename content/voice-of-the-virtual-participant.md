@@ -1,6 +1,6 @@
 Title: Voice of the Virtual Participant
 Date: 2011-04-12 17:51
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: Participation, Remote, Virtual
 Slug: voice-of-the-virtual-participant

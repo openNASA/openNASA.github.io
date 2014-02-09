@@ -1,6 +1,6 @@
 Title: Open Hardware Exploration at NEEMO16
 Date: 2012-06-14 12:49
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: International Space Apps Challenge, NEEMO16, open hardware
 Slug: open-hardware-exploration-at-neemo16

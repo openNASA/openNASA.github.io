@@ -1,6 +1,6 @@
 Title: Four weeks to change my universe.
 Date: 2013-06-15 15:58
-Author: khozeinkj
+Author: Kiana Khozein
 Category: OpenGov
 Slug: four-weeks-to-change-my-universe
 

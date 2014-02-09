@@ -1,6 +1,6 @@
 Title: Awesome Stuff in Space
 Date: 2013-09-06 09:23
-Author: samwilkinson
+Author: Sam Wilkinson
 Category: OpenGov
 Slug: awesome-stuff-in-space
 

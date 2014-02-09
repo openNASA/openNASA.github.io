@@ -1,6 +1,6 @@
 Title: Open Hardware Summit 2012 Recap
 Date: 2012-10-24 02:59
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: open-hardware-summit-2012
 

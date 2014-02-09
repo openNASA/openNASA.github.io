@@ -1,6 +1,6 @@
 Title: Crowdsourcing Science at NEEMO-15
 Date: 2011-10-19 23:05
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: asteroids, crowdsourcing, NEEMO, Opengov
 Slug: crowdsourcing-science-at-neemo-15

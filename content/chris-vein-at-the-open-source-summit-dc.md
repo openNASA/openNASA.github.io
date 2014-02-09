@@ -1,6 +1,6 @@
 Title: Chris Vein at the Open Source Summit DC 
 Date: 2012-06-21 10:42
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Chris Vein, Open Source, OSS, OSTP, space apps
 Slug: chris-vein-at-the-open-source-summit-dc

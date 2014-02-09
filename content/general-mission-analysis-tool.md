@@ -1,6 +1,6 @@
 Title: General Mission Analysis Tool
 Date: 2012-06-12 15:35
-Author: jjparker
+Author: Joel Parker
 Category: OpenGov
 Tags: code.nasa.gov, gmat, Goddard, Open Source
 Slug: general-mission-analysis-tool

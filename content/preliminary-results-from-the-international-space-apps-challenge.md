@@ -1,6 +1,6 @@
 Title: Preliminary Results from the International Space Apps Challenge
 Date: 2012-04-24 05:29
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: collaboration, hackathon, International Space Apps Challenge, Participation
 Slug: preliminary-results-from-the-international-space-apps-challenge

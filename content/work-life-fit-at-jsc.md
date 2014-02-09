@@ -1,6 +1,6 @@
 Title: Work-Life Fit at JSC
 Date: 2009-02-21 18:59
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: Johnson Space Center, Work-Life Fit
 Slug: work-life-fit-at-jsc

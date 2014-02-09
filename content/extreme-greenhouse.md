@@ -1,6 +1,6 @@
 Title: Extreme Greenhouse
 Date: 2013-06-10 16:29
-Author: srigdon
+Author: Sarah Rigdon
 Category: OpenGov
 Slug: extreme-greenhouse
 

@@ -1,6 +1,6 @@
 Title: RHoK Jr
 Date: 2013-03-20 10:10
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: RHoK
 Slug: rhok-jr

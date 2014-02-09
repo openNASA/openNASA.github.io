@@ -1,6 +1,6 @@
 Title: NASA IT Labs
 Date: 2013-04-30 10:31
-Author: nskytlan
+Author: Nick Skytland
 Slug: nasaitlabs
 
 [![01-NASA-IT-Labs-Banner][]][01-NASA-IT-Labs-Banner]

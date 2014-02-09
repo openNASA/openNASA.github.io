@@ -1,6 +1,6 @@
 Title: NASA is nominated for a Makey!
 Date: 2012-09-06 10:11
-Author: bjmclaug
+Author: Brian McLaughlin
 Category: OpenGov
 Tags: awards, DIY, Makers, open hardware
 Slug: nasa-is-nominated-for-a-makey

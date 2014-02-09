@@ -1,6 +1,6 @@
 Title: The Virtual Participants of the Apps Challenge
 Date: 2012-04-06 18:33
-Author: kpaintin
+Author: Kristen Painting
 Category: OpenGov
 Slug: the-virtual-participants-of-the-apps-challenge
 

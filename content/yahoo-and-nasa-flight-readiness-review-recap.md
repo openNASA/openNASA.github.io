@@ -1,6 +1,6 @@
 Title: Yahoo and NASA Flight Readiness Review Recap
 Date: 2012-04-17 18:25
-Author: kpaintin
+Author: Kristen Painting
 Category: OpenGov
 Tags: challenges, NASA, spaceapps, yahoo
 Slug: yahoo-and-nasa-flight-readiness-review-recap

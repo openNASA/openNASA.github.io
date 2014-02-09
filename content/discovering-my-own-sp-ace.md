@@ -1,6 +1,6 @@
 Title: Discovering my own sp.ace 
 Date: 2013-05-17 16:45
-Author: bevelasq
+Author: Brenda Velasquez
 Category: OpenGov
 Slug: discovering-my-own-sp-ace
 

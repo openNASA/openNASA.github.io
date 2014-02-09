@@ -1,6 +1,6 @@
 Title: 10 Reasons Why Government Should Embrace Hackathons 
 Date: 2011-07-28 18:20
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: code, hackathon, RHoK, Science Hack Day, Waterhackathon
 Slug: 10-reasons-why-government-should-embrace-hackathons

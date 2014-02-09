@@ -1,6 +1,6 @@
 Title: Angry Birds Space
 Date: 2012-03-08 12:08
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Angry Birds, games, microgravity, space, sxsw
 Slug: angry-birds-space

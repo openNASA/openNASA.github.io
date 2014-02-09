@@ -1,6 +1,6 @@
 Title: Do 1 Thing Day: July 20, 2012
 Date: 2012-07-17 20:34
-Author: rgaran
+Author: Ron Garan
 Category: OpenGov
 Tags: fragile oasis, social impact
 Slug: do-1-thing-day-july-20-2012

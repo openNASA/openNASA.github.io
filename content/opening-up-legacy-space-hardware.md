@@ -1,6 +1,6 @@
 Title: Opening Up Legacy Space Hardware 
 Date: 2013-01-10 19:02
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: apollo, open hardware, Open Source, video
 Slug: opening-up-legacy-space-hardware

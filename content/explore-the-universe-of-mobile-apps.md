@@ -1,6 +1,6 @@
 Title: Explore the universe of mobile apps
 Date: 2012-10-01 10:00
-Author: bevelasq
+Author: Brenda Velasquez
 Category: OpenGov
 Tags: mobile apps, mobility
 Slug: explore-the-universe-of-mobile-apps

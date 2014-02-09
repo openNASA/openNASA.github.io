@@ -1,6 +1,6 @@
 Title: Can Space Hackers Colonize the Solar System?
 Date: 2013-04-21 15:36
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Slug: can-space-hackers-colonize-the-solar-system
 

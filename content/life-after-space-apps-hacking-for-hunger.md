@@ -1,6 +1,6 @@
 Title: Life After Space Apps: Hacking for Hunger
 Date: 2012-09-13 10:54
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: agriculture, citizen science, climate, collaboration, Data, food security, hackathon, hacking for hunger, pineapple, space apps, USAID
 Slug: life-after-space-apps-hacking-for-hunger

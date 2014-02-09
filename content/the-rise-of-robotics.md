@@ -1,6 +1,6 @@
 Title: The Rise of Robot(ic)s
 Date: 2012-07-16 21:10
-Author: kjeremko
+Author: Katy Jeremko
 Category: OpenGov
 Slug: the-rise-of-robotics
 

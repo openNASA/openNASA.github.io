@@ -1,6 +1,6 @@
 Title: An Invitation to Participate in #SpaceApps
 Date: 2012-04-13 11:32
-Author: rgaran
+Author: Ron Garan
 Category: OpenGov
 Tags: orbital perspective, space apps, Yuri's Night
 Slug: an-invitation-to-participate-in-spaceapps

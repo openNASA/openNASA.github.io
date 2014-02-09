@@ -1,6 +1,6 @@
 Title: Peace Corps Volunteers Create Mobile Language Application
 Date: 2013-04-01 15:52
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: peace-corps-volunteers-create-mobile-language-application
 

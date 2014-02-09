@@ -1,6 +1,6 @@
 Title: Inspired by NASA
 Date: 2011-12-08 18:49
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: inspired-by-nasa
 

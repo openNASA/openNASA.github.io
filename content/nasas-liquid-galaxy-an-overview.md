@@ -1,6 +1,6 @@
 Title: NASA's Liquid Galaxy: An Overview
 Date: 2011-09-26 12:02
-Author: sengelha
+Author: Stuart Engelhardt
 Category: OpenGov
 Tags: clusterGL, DOUG, gmat, google, Google Earth, HyperWall, Immersive Cave, Liquid Galaxy, Open Source, openGL, Ubuntu, World Wind
 Slug: nasas-liquid-galaxy-an-overview

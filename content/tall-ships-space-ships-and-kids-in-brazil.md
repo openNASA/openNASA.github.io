@@ -1,6 +1,6 @@
 Title: Tall ships, space ships, and kids in Brazil…
 Date: 2012-06-10 18:21
-Author: dgarriso
+Author: Dan Garrison
 Category: OpenGov
 Tags: Education, imagery, Johnson Space Center, orbital perspective, Rio+20, Science, State, sustainability
 Slug: tall-ships-space-ships-and-kids-in-brazil

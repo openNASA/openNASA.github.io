@@ -1,6 +1,6 @@
 Title: NASA Forward Maker Camp
 Date: 2011-08-13 16:48
-Author: weshagh
+Author: William Eshagh
 Category: OpenGov
 Tags: Innovation, Liquid Galaxy, maker camp, NASA Forward, Participation, Remote
 Slug: nasa-forward-maker-camp-2

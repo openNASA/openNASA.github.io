@@ -1,6 +1,6 @@
 Title: We're In This Together: Why Mass Collaboration is Changing Our Approach to Problem Solving in Government
 Date: 2012-11-05 12:05
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: Mass Collaboration, open government, orbital perspective, Participation
 Slug: were-in-this-together-why-mass-collaboration-is-changing-our-approach-to-problem-solving-in-government

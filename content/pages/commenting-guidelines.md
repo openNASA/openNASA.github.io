@@ -1,6 +1,6 @@
 Title: Commenting Guidelines
 Date: 2011-08-29 16:18
-Author: nskytlan
+Author: Nick Skytland
 Slug: commenting-guidelines
 
 We welcome your comments if you are 13 or older, and hope that our

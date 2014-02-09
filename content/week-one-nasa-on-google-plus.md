@@ -1,6 +1,6 @@
 Title: Week One: NASA on Google Plus
 Date: 2011-11-17 14:35
-Author: dbdiaz
+Author: Deborah Diaz
 Category: OpenGov
 Slug: week-one-nasa-on-google-plus
 

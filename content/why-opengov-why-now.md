@@ -1,6 +1,6 @@
 Title: Why OpenGov? Why Now?
 Date: 2011-07-26 09:00
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Inspiration, Opengov, Participation
 Slug: why-opengov-why-now

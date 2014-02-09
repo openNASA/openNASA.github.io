@@ -1,6 +1,6 @@
 Title: Help us Open Source NASA.gov
 Date: 2012-02-18 19:32
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: nasa.gov, Open Data, open government, Open Source, Social Media
 Slug: help-us-open-source-nasa-gov

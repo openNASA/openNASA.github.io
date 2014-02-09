@@ -1,6 +1,6 @@
 Title: The Sp.ace
 Date: 2011-04-01 06:33
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: the-sp-ace
 

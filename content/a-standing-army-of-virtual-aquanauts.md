@@ -1,6 +1,6 @@
 Title: A Standing Army of Virtual Aquanauts
 Date: 2011-11-01 16:53
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: analogs, crowdsourcing, exploration, NEEMO, Vizzuality, Zooniverse
 Slug: a-standing-army-of-virtual-aquanauts

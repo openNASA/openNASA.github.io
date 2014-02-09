@@ -1,6 +1,6 @@
 Title: Random Hacks of Kindness Report 2013
 Date: 2013-03-11 12:52
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: random-hacks-of-kindness-report-2013
 

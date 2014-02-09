@@ -1,6 +1,6 @@
 Title: Fragile Oasis: Connecting Space and Earth
 Date: 2011-09-14 16:47
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: fragile oasis, ISS, ron garan, Social Innovation, soyuz, video
 Slug: fragile-oasis-connecting-space-and-earth

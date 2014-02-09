@@ -1,6 +1,6 @@
 Title: Venus Transit
 Date: 2012-05-17 11:58
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Astronomy, citizen science, mobile apps, Science, Venus Transit
 Slug: venus-transit

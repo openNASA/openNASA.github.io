@@ -1,6 +1,6 @@
 Title: Nebula, NASA, and OpenStack
 Date: 2012-06-04 15:35
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Ames Research Center, cloud computing, code.nasa.gov, Nebula, Open Source, Open Stack
 Slug: nebula-nasa-and-openstack

@@ -1,6 +1,6 @@
 Title: 100+ Reasons #SpaceApps Made a Difference
 Date: 2012-04-25 18:05
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: hackathon, International Space Apps Challenge, Open Data, Open Source, Solutions
 Slug: 100-reasons-spaceapps-made-a-difference

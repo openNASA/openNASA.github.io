@@ -1,6 +1,6 @@
 Title: Big Pockets, Bigger Ideas
 Date: 2013-06-04 13:53
-Author: khozeinkj
+Author: Kiana Khozein
 Category: OpenGov
 Slug: big-pockets-bigger-ideas
 

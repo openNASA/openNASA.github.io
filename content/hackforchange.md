@@ -1,6 +1,6 @@
 Title: Roll Up Your Sleeves, Get Involved, and Get Civic-Hacking
 Date: 2013-01-22 15:42
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: civic hacking, Code for America, National Day of Civic Hacking, OSTP, RHoK
 Slug: hackforchange

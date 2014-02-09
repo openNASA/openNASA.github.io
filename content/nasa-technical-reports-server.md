@@ -1,6 +1,6 @@
 Title: NASA Technical Reports
 Date: 2011-04-26 14:35
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: NASA Technical Reports Server, Open Data
 Slug: nasa-technical-reports-server

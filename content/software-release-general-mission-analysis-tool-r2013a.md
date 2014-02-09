@@ -1,6 +1,6 @@
 Title: Software Release: General Mission Analysis Tool R2013a
 Date: 2013-04-17 14:38
-Author: jjparker
+Author: Joel Parker
 Category: OpenGov
 Slug: software-release-general-mission-analysis-tool-r2013a
 

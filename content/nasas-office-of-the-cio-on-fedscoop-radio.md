@@ -1,6 +1,6 @@
 Title: NASA's Office of the CIO on FedScoop Radio
 Date: 2012-01-12 16:02
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: nasas-office-of-the-cio-on-fedscoop-radio
 

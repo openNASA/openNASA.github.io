@@ -1,6 +1,6 @@
 Title: Don't forget to stop and spot the station. 
 Date: 2013-06-04 14:51
-Author: srigdon
+Author: Sarah Rigdon
 Category: OpenGov
 Slug: dont-forget-to-stop-and-spot-the-station
 

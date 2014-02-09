@@ -1,6 +1,6 @@
 Title: Creating spaceappschallenge.org
 Date: 2013-04-15 00:04
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Tags: spaceapps, spaceappschallenge, spaceappschallenge.org, web
 Slug: creating-spaceappschallenge-org

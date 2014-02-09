@@ -1,6 +1,6 @@
 Title: Greener Cities for Greener Living
 Date: 2013-06-06 18:22
-Author: khozeinkj
+Author: Kiana Khozein
 Category: OpenGov
 Slug: greener-cities-for-greener-living
 

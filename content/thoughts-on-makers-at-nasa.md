@@ -1,6 +1,6 @@
 Title: Thoughts on Makers at NASA
 Date: 2012-09-26 12:08
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: thoughts-on-makers-at-nasa
 

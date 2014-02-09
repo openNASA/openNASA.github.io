@@ -1,6 +1,6 @@
 Title: NASA Open Government Initiative Spring 2012 Internship Opportunity
 Date: 2011-09-16 01:14
-Author: agllewel
+Author: Ali Llewellyn
 Slug: opengov-spring-2012-internship
 
 <span style="color: #ff0000;">**Deadline Extended:** Applications now

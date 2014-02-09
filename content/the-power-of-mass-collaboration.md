@@ -1,6 +1,6 @@
 Title: The Power of Mass Collaboration
 Date: 2013-04-22 01:52
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: the-power-of-mass-collaboration
 

@@ -1,6 +1,6 @@
 Title: People's Choice: #SpaceApps Public Voting
 Date: 2013-05-03 04:53
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Slug: peoples-choice-spaceapps-public-voting
 

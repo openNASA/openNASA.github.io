@@ -1,6 +1,6 @@
 Title: A Summary of the 5th Global Event
 Date: 2011-12-05 13:04
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: collaboration, hacking for humanity, Innovation, RHoK
 Slug: a-summary-of-the-5th-global-event

@@ -1,6 +1,6 @@
 Title: Social Entrepreneurship and NASA
 Date: 2012-03-29 12:37
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: exploration, fragile oasis, LAUNCH, RHoK, SERVIR, Social Innovation
 Slug: social-entrepreneurship-and-nasa

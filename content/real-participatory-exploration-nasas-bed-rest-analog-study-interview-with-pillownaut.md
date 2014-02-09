@@ -1,6 +1,6 @@
 Title: Real participatory exploration: NASA's bed rest analog study (Interview with @Pillownaut)
 Date: 2011-09-22 12:03
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: analogs, bed rest, citizen science, life sciences, Participation
 Slug: real-participatory-exploration-nasas-bed-rest-analog-study-interview-with-pillownaut

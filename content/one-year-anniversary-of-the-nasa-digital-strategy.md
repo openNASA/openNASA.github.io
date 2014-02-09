@@ -1,6 +1,6 @@
 Title: One Year Anniversary of the NASA Digital Strategy
 Date: 2013-05-23 12:00
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: one-year-anniversary-of-the-nasa-digital-strategy
 
