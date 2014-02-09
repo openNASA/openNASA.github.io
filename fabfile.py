@@ -46,7 +46,7 @@ def ghb():
     commit = prompt("Enter your commit text:")
     local('git commit -a -m "%s"' % commit)
     build()
-    local('git commit -a -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
+    local('git commit -A -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
     
     
 
