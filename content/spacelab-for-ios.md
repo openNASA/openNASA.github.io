@@ -1,6 +1,6 @@
 Title: SpaceLab for iOS
 Date: 2011-12-01 13:37
-Author: mbenson1
+Author: Mathew Benson
 Category: OpenGov
 Tags: iOS, mobile apps, Open Source, operations, space apps
 Slug: spacelab-for-ios

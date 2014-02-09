@@ -1,6 +1,6 @@
 Title: Open Government 1 Year Status Infographic
 Date: 2011-05-23 07:17
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Tags: Infographic
 Slug: open-government-1-year-status-infographic

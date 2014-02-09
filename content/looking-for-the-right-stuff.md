@@ -1,6 +1,6 @@
 Title: Looking for the Right Stuff
 Date: 2011-10-09 02:39
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Slug: looking-for-the-right-stuff
 

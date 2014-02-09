@@ -1,6 +1,6 @@
 Title: Global Award Winners for the 2013 International Space Apps Challenge
 Date: 2013-05-22 07:52
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Slug: global-award-winners-for-the-2013-international-space-apps-challenge
 

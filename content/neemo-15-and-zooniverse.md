@@ -1,6 +1,6 @@
 Title: NEEMO-15 and Zooniverse
 Date: 2011-04-01 05:58
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: analogs, crowdsourcing, exploration, NEEMO, Zooniverse
 Slug: neemo-15-and-zooniverse

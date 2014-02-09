@@ -1,6 +1,6 @@
 Title: Space Mission Design for Everyone
 Date: 2011-07-28 18:15
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: engineering, gmat, Open Source, space
 Slug: space-mission-design-for-everyone

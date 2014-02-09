@@ -1,6 +1,6 @@
 Title: Open Source Summit
 Date: 2012-06-01 09:33
-Author: nskytlan
+Author: Nick Skytland
 Slug: summit
 
 [![Open Source Summit][]][]

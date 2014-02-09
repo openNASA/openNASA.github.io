@@ -1,6 +1,6 @@
 Title: Beyond 140 Characters
 Date: 2011-10-26 00:46
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: beyond-140-characters
 

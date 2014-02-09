@@ -1,6 +1,6 @@
 Title: Announcing the Challenges for the 2013 International Space Apps Challenge
 Date: 2013-03-18 22:37
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: announcing-the-challenges-for-the-2013-international-space-apps-challenge
 

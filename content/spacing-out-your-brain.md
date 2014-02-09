@@ -1,6 +1,6 @@
 Title: Spacing Out Your Brain
 Date: 2012-08-02 11:35
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: spacing-out-your-brain
 

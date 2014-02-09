@@ -1,6 +1,6 @@
 Title: Beyond Borders
 Date: 2012-07-30 16:12
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: development, engineering, exploration, social impact
 Slug: beyond-borders

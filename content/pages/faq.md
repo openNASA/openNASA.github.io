@@ -1,6 +1,6 @@
 Title: FAQ
 Date: 2011-08-29 18:10
-Author: nskytlan
+Author: Nick Skytland
 Slug: faq
 
 **What is the OpenGov Initiative?**

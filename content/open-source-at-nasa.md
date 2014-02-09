@@ -1,6 +1,6 @@
 Title: Open Source at NASA
 Date: 2011-04-05 03:17
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: open-source-at-nasa
 

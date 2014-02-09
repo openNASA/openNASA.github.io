@@ -1,6 +1,6 @@
 Title: BOLIDES - Visualizing Meteorite Impacts
 Date: 2013-05-10 09:49
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: bolides-visualizing-meteorite-impacts
 

@@ -1,6 +1,6 @@
 Title: 7 Billion
 Date: 2011-11-10 12:50
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: 7-billion
 

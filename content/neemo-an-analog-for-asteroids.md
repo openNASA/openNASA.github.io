@@ -1,6 +1,6 @@
 Title: NEEMO: An Analog for Asteroids
 Date: 2011-05-11 17:44
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: analogs, exploration, NEEMO
 Slug: neemo-an-analog-for-asteroids

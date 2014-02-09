@@ -1,6 +1,6 @@
 Title: Being a NASA Trajectory Analyst for the Launch Vehicle on Mars Science Lab
 Date: 2012-08-06 21:24
-Author: caburke
+Author: Caley Burke
 Category: OpenGov
 Tags: engineering, I am NASA, Kennedy Space Center, LAUNCH, Launch Services Program, Mars, Mars Science Lab
 Slug: being-the-nasa-trajectory-analyst-for-the-launch-vehicle-on-mars-science-lab-2

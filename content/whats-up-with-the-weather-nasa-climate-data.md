@@ -1,6 +1,6 @@
 Title: What's up with the weather? 
 Date: 2011-08-25 13:05
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: atmosphere, blogs, climate, earthquakes, frozen places, hurricanes, life, Open Data, visualizations, water
 Slug: whats-up-with-the-weather-nasa-climate-data

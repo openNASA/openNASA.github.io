@@ -1,6 +1,6 @@
 Title: ESA's App Camp
 Date: 2012-06-25 16:22
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: earth observation, ESA, hackathon, mobile apps, Open Data
 Slug: esas-app-camp

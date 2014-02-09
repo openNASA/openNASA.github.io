@@ -1,6 +1,6 @@
 Title: The Plain Language Act
 Date: 2011-12-05 14:10
-Author: lbox
+Author: Larry Box
 Category: OpenGov
 Tags: plain language
 Slug: the-plain-language-act

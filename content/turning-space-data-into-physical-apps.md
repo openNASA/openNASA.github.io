@@ -1,6 +1,6 @@
 Title: Turning Space Data into Physical Apps
 Date: 2013-03-06 17:36
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Data, physical apps, space apps, sxsw
 Slug: turning-space-data-into-physical-apps

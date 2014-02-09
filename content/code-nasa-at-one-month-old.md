@@ -1,6 +1,6 @@
 Title: code.NASA at one month old
 Date: 2012-02-06 08:33
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: code, code.nasa.gov
 Slug: code-nasa-at-one-month-old

@@ -1,6 +1,6 @@
 Title: Keepin' It Cool:       2012 NASA Commercial Innovation of the Year
 Date: 2012-06-15 12:31
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: Engineers without Borders, Social Innovation, Solar Refrigerator, spinoffs, technology
 Slug: keepin-it-cool-2012-nasa-commercial-innovation-of-the-year

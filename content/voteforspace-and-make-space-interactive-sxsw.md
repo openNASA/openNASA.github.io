@@ -1,6 +1,6 @@
 Title: #voteforspace and make space #interactive @sxsw
 Date: 2011-08-15 21:42
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: interactive, Opengov, space exploration, sxsw
 Slug: voteforspace-and-make-space-interactive-sxsw

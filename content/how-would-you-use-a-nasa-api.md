@@ -1,6 +1,6 @@
 Title: How would you use a NASA API?
 Date: 2012-10-09 15:53
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Slug: how-would-you-use-a-nasa-api
 

@@ -1,6 +1,6 @@
 Title: I’m the highest person...feelin’ low
 Date: 2011-09-02 16:41
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Tags: blues, exploration, fragile oasis, ISS, mike fossum, ron garan, station
 Slug: im-the-highest-person-feelin-low

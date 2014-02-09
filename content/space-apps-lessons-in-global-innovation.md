@@ -1,6 +1,6 @@
 Title: Space Apps: Lessons in Global Innovation
 Date: 2012-06-01 10:42
-Author: hjstephe
+Author: Haley Stephenson
 Category: OpenGov
 Tags: collaboration, Innovation, international, Open Data, Open Government Partnership, Participation, space apps
 Slug: space-apps-lessons-in-global-innovation

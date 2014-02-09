@@ -1,6 +1,6 @@
 Title: NASA Celebrates the United States’s Entry into the Open Government Partnership 
 Date: 2011-09-20 14:56
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: apps, citizen science, Open Data, Open Government Partnership, Open Source
 Slug: nasa-celebrates-the-united-states-entry-into-the-open-government-partnership

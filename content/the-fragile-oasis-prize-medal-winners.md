@@ -1,6 +1,6 @@
 Title: The Fragile Oasis Prize Medal Winners
 Date: 2013-07-20 21:13
-Author: rgaran
+Author: Ron Garan
 Category: OpenGov
 Tags: fragile oasis
 Slug: the-fragile-oasis-prize-medal-winners

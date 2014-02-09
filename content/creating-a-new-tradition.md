@@ -1,6 +1,6 @@
 Title: Creating a New Tradition
 Date: 2012-07-02 10:43
-Author: kjeremko
+Author: Katy Jeremko
 Category: OpenGov
 Tags: design, digital, interaction, Makers, open hardware, technology
 Slug: creating-a-new-tradition

@@ -1,6 +1,6 @@
 Title: Seeking Inputs on NASA's Plans, Programs and Priorities
 Date: 2012-08-08 11:29
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: citizen engagement, Congress, Strategic Plan, transparency
 Slug: seeking-inputs-on-nasas-plans-programs-and-priorities

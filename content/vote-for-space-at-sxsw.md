@@ -1,6 +1,6 @@
 Title: Vote for #Space at @SxSW
 Date: 2012-08-14 14:46
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: citizen engagement, Outreach, sxsw
 Slug: vote-for-space-at-sxsw

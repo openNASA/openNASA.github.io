@@ -1,6 +1,6 @@
 Title: A Lesson in Social Media Innovation
 Date: 2011-10-26 01:19
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: a-lesson-in-social-media-innovation
 

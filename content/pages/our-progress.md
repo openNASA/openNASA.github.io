@@ -1,6 +1,6 @@
 Title: Our Progress
 Date: 2011-05-23 07:35
-Author: agllewel
+Author: Ali Llewellyn
 Slug: our-progress
 
 The foundation of the Open Government movement at NASA is the [Open

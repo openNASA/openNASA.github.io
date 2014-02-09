@@ -1,6 +1,6 @@
 Title: Exploration Roadmap
 Date: 2011-11-01 14:23
-Author: sherron
+Author: Sean Herron
 Slug: exploration-roadmap
 
 <style><!--<br />

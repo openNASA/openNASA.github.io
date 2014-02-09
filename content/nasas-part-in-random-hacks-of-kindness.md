@@ -1,6 +1,6 @@
 Title: A Summary from RHoK#3
 Date: 2011-06-13 20:03
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: Open Data, RHoK
 Slug: nasas-part-in-random-hacks-of-kindness

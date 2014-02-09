@@ -1,6 +1,6 @@
 Title: The Global Exploration Roadmap - Interactive Edition
 Date: 2011-11-03 17:47
-Author: drbonill
+Author: Dennis Bonilla
 Category: OpenGov
 Slug: the-global-exploration-roadmap-interactive-edition
 

@@ -1,6 +1,6 @@
 Title: the sp.ace
 Date: 2011-04-20 19:17
-Author: nskytlan
+Author: Nick Skytland
 Slug: space
 
 <div>

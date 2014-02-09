@@ -1,6 +1,6 @@
 Title: Moonshot
 Date: 2012-09-12 09:00
-Author: rgaran
+Author: Ron Garan
 Category: OpenGov
 Tags: fragile oasis, Inspiration, JFK, Moon
 Slug: moonshot

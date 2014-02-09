@@ -1,6 +1,6 @@
 Title: From the Ground Up
 Date: 2012-06-11 12:02
-Author: kjeremko
+Author: Katy Jeremko
 Category: OpenGov
 Tags: collaboration, Innovation, internship, open government, transparency
 Slug: from-the-ground-up

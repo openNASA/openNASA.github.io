@@ -1,6 +1,6 @@
 Title: NASA Open Source Software Development
 Date: 2011-04-01 18:07
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: nasa-open-source-software-development
 

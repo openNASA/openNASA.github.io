@@ -1,6 +1,6 @@
 Title: Reach for the Stars
 Date: 2012-08-28 11:50
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: apps, Education, Mars, Open Data, Open Source, will.i.am
 Slug: reach-for-the-stars

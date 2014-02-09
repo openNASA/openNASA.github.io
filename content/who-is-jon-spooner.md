@@ -1,6 +1,6 @@
 Title: Who is Jon Spooner?
 Date: 2012-05-25 10:36
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: who-is-jon-spooner
 

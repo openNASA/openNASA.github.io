@@ -1,6 +1,6 @@
 Title: Announcing the data.nasa.gov API
 Date: 2011-10-12 23:59
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Tags: api, awesomeness, data.nasa.gov, Open Data, Participation, transparency
 Slug: announcing-the-data-nasa-gov-api

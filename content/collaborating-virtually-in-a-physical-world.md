@@ -1,6 +1,6 @@
 Title: Collaborating Virtually in a Physical World
 Date: 2011-08-04 18:12
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: collaborating-virtually-in-a-physical-world
 

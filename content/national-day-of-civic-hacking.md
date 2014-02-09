@@ -1,6 +1,6 @@
 Title: National Day of Civic Hacking 
 Date: 2013-05-02 15:52
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: national-day-of-civic-hacking
 

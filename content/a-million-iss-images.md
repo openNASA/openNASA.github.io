@@ -1,6 +1,6 @@
 Title: A Million ISS Images
 Date: 2013-04-02 09:35
-Author: nbergey
+Author: Nick Bergey
 Category: OpenGov
 Tags: ISS, Open Data, Participation, space apps
 Slug: a-million-iss-images

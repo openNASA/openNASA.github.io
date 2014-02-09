@@ -1,6 +1,6 @@
 Title: Pack It In, Pack It Out: The Orbital Debris iBook
 Date: 2012-10-31 14:57
-Author: hjstephe
+Author: Haley Stephenson
 Category: OpenGov
 Tags: APPEL, iBook, knowledge, orbital debris
 Slug: pack-it-in-pack-it-out-the-orbital-debris-ibook

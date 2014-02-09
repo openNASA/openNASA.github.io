@@ -1,6 +1,6 @@
 Title: Eyes on the Earth... and on the Solar System
 Date: 2011-04-07 17:04
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Jet Propulsion Laboratory, Open Data, Visualization
 Slug: can-you-see-me-now-eyes-on-the-earth-and-on-the-solar-system

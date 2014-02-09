@@ -1,6 +1,6 @@
 Title: Teleworking
 Date: 2011-11-15 16:56
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: coworking, mobile apps, NASA, Policy, teleworking
 Slug: teleworking

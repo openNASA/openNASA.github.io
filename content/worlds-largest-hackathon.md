@@ -1,6 +1,6 @@
 Title: World's Largest Hackathon
 Date: 2013-04-19 12:51
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: worlds-largest-hackathon
 

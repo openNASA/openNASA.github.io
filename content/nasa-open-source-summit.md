@@ -1,6 +1,6 @@
 Title: NASA Open Source Summit
 Date: 2011-04-05 03:18
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: nasa-open-source-summit
 

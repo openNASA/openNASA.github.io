@@ -1,6 +1,6 @@
 Title: Making a difference in the water sector
 Date: 2011-09-06 15:51
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Innovation, LAUNCH, SERVIR, water, Waterhackathon
 Slug: making-a-difference-in-the-water-sector

@@ -1,6 +1,6 @@
 Title: +NASA on Google+
 Date: 2011-11-14 19:15
-Author: dbdiaz
+Author: Deborah Diaz
 Category: OpenGov
 Slug: nasa-on-google
 

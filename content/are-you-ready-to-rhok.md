@@ -1,6 +1,6 @@
 Title: Are you ready to RHoK? 
 Date: 2011-11-18 18:25
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: collaboration, hackathon, Innovation, RHoK
 Slug: are-you-ready-to-rhok

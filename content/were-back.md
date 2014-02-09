@@ -1,6 +1,6 @@
 Title: We're Back.
 Date: 2012-11-14 11:35
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: International Space Apps Challenge, Mass Collaboration, open hardware, Open Source
 Slug: were-back

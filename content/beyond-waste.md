@@ -1,6 +1,6 @@
 Title: Beyond Waste
 Date: 2012-04-02 16:26
-Author: rgaran
+Author: Ron Garan
 Category: OpenGov
 Slug: beyond-waste
 

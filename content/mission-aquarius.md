@@ -1,6 +1,6 @@
 Title: Mission Aquarius
 Date: 2012-07-12 11:18
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: mission-aquarius
 

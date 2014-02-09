@@ -1,6 +1,6 @@
 Title: Welcoming the White House to Github
 Date: 2012-08-24 13:37
-Author: sherron
+Author: Sean Herron
 Category: OpenGov
 Tags: code.nasa.gov, github, Open Source
 Slug: welcoming-the-white-house-to-github

@@ -1,6 +1,6 @@
 Title: One Year on the Job
 Date: 2012-07-09 13:54
-Author: gfitzpatrick
+Author: Garret Fitzpatrick
 Category: OpenGov
 Tags: Gen Y, perspective
 Slug: one-year-on-the-job

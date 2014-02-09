@@ -1,6 +1,6 @@
 Title: Developer
 Date: 2013-05-19 14:58
-Author: nskytlan
+Author: Nick Skytland
 Slug: developer
 
 ![developer2][]

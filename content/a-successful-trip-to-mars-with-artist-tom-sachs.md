@@ -1,6 +1,6 @@
 Title: A Successful Trip to Mars with artist Tom Sachs
 Date: 2012-08-06 12:22
-Author: kjeremko
+Author: Katy Jeremko
 Category: OpenGov
 Tags: Art, design, exploration, technology
 Slug: a-successful-trip-to-mars-with-artist-tom-sachs

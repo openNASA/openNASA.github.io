@@ -1,6 +1,6 @@
 Title: #OpenGov Community Summit 
 Date: 2010-10-08 21:43
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: open-government-community-summit-hosted-by-nasa
 

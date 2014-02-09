@@ -1,6 +1,6 @@
 Title: dev/day
 Date: 2013-06-20 13:59
-Author: nskytlan
+Author: Nick Skytland
 Slug: devday
 
  

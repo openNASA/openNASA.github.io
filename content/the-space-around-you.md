@@ -1,6 +1,6 @@
 Title: The Space Around You
 Date: 2012-06-25 10:13
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: Innovation, musician, social impact, spinoffs, technology
 Slug: the-space-around-you

@@ -1,6 +1,6 @@
 Title: Taking a Road Trip to Mars vs. NYC
 Date: 2012-08-07 15:14
-Author: caburke
+Author: Caley Burke
 Category: OpenGov
 Tags: engineering, Kennedy Space Center, Landing, Launch Services Program, Mars, Mars Science Lab
 Slug: taking-a-road-trip-to-mars-vs-nyc

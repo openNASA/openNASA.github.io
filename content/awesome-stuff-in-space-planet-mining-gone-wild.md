@@ -1,6 +1,6 @@
 Title: Awesome Stuff in Space: Planet Mining GONE WILD
 Date: 2013-09-25 13:23
-Author: samwilkinson
+Author: Sam Wilkinson
 Category: OpenGov
 Slug: awesome-stuff-in-space-planet-mining-gone-wild
 

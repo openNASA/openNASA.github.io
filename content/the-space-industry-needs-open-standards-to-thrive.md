@@ -1,6 +1,6 @@
 Title: The Space Industry Needs Open Standards to Thrive
 Date: 2013-03-26 13:38
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: International Space Apps Challenge, open hardware, Open Source
 Slug: the-space-industry-needs-open-standards-to-thrive

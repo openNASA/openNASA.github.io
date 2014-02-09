@@ -1,6 +1,6 @@
 Title: Cultivating Creativity
 Date: 2012-04-19 04:34
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: Creativity, Hackathons, Leadership, Salon
 Slug: cultivating-creativity

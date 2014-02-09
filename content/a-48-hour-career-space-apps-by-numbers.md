@@ -1,6 +1,6 @@
 Title: A 48-Hour Career: Space Apps By Numbers
 Date: 2013-08-06 14:31
-Author: samwilkinson
+Author: Sam Wilkinson
 Category: OpenGov
 Slug: a-48-hour-career-space-apps-by-numbers
 

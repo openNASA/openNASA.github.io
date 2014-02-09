@@ -1,6 +1,6 @@
 Title: The Future Brought to You by NASA
 Date: 2012-02-16 18:51
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: the-future-brought-to-you-by-nasa
 

@@ -1,6 +1,6 @@
 Title: I am NASA: Anton Gagne, Erasmus Mundus Aerospace Graduate Student and former ISS Systems Engineer
 Date: 2012-08-20 11:21
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: Engineers without Borders, I am NASA, international, ISS
 Slug: i-am-nasa-anton-gagne-erasmus-mundus-aerospace-graduate-student-and-former-iss-systems-engineer

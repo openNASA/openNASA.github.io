@@ -1,6 +1,6 @@
 Title: Digital Astronaut Project
 Date: 2012-05-25 09:45
-Author: lmuluget
+Author: Lealem Mulugeta
 Category: OpenGov
 Tags: collaboration, Exercise, Human Research Program, human spaceflight, Johnson Space Center, modeling, technology
 Slug: digital-astronaut-project

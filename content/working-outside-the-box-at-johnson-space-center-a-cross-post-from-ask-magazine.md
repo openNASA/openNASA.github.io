@@ -1,6 +1,6 @@
 Title: Working Outside the Box at Johnson Space Center [A Cross-Post from ASK the Academy]
 Date: 2011-07-28 23:45
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Tags: collaboration, collaborative spaces, Innovation
 Slug: working-outside-the-box-at-johnson-space-center-a-cross-post-from-ask-magazine

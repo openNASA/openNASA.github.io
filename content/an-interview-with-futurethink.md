@@ -1,6 +1,6 @@
 Title: An Interview with FutureThink
 Date: 2013-03-27 11:40
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: an-interview-with-futurethink
 

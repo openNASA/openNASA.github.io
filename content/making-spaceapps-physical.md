@@ -1,6 +1,6 @@
 Title: Making #spaceapps physical
 Date: 2012-03-10 11:58
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: baking, Dundee, hacking for humanity, maker camp, physical apps, space apps, STEM, university
 Slug: making-spaceapps-physical

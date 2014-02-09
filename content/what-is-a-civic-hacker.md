@@ -1,6 +1,6 @@
 Title: What is a Civic Hacker?
 Date: 2013-05-08 12:00
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: what-is-a-civic-hacker
 

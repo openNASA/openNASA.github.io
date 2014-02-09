@@ -1,6 +1,6 @@
 Title: Random Hacks of Kindness
 Date: 2011-04-01 05:33
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: random-hacks-of-kindness-2
 

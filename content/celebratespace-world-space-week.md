@@ -1,6 +1,6 @@
 Title: #celebratespace: World Space Week
 Date: 2011-09-12 11:52
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: Education, international, Outreach, world space week
 Slug: celebratespace-world-space-week

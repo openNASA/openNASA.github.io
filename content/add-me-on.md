@@ -1,6 +1,6 @@
 Title: Add me on
 Date: 2013-06-01 14:47
-Author: khozeinkj
+Author: Kiana Khozein
 Category: OpenGov
 Slug: add-me-on
 

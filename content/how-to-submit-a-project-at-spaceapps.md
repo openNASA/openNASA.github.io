@@ -1,6 +1,6 @@
 Title: How to Submit a Project at #SpaceApps
 Date: 2013-04-19 23:31
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: how-to-submit-a-project-at-spaceapps
 

@@ -1,6 +1,6 @@
 Title: To Be Continued...
 Date: 2013-02-27 17:16
-Author: rgaran
+Author: Ron Garan
 Category: OpenGov
 Tags: development, fragile oasis, USAID
 Slug: to-be-continued

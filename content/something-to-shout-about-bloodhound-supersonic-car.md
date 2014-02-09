@@ -1,6 +1,6 @@
 Title: Something to Shout About: Bloodhound Supersonic Car
 Date: 2011-11-17 15:53
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: bloodhound, engineering, Innovation, Inspiration, racing, STEM
 Slug: something-to-shout-about-bloodhound-supersonic-car

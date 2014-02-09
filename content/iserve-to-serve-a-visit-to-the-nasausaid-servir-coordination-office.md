@@ -1,6 +1,6 @@
 Title: ISERVE to serve: A visit to the NASA/USAID SERVIR Coordination Office
 Date: 2012-04-30 16:41
-Author: ssnabes
+Author: Samantha Snabes
 Category: OpenGov
 Tags: earth observation, SERVIR, Social Innovation
 Slug: iserve-to-serve-a-visit-to-the-nasausaid-servir-coordination-office

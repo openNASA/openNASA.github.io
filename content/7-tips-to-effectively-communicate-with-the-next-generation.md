@@ -1,6 +1,6 @@
 Title: 7 tips to effectively communicate with the next generation
 Date: 2011-12-04 02:00
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Slug: 7-tips-to-effectively-communicate-with-the-next-generation
 

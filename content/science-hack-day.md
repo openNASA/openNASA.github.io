@@ -1,6 +1,6 @@
 Title: Science Hack Day
 Date: 2011-04-01 05:51
-Author: cgerty
+Author: Chris Gerty
 Category: OpenGov
 Slug: science-hack-day
 

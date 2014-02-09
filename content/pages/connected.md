@@ -1,6 +1,6 @@
 Title: Connected: An Autoblogography about Love, Death & Technology
 Date: 2011-08-03 21:05
-Author: cgerty
+Author: Chris Gerty
 Slug: connected
 
 <iframe src="http://www.youtube.com/embed/eQmoRIVJnzQ?rel=0" height="510" width="900" allowfullscreen frameborder="0"></iframe>

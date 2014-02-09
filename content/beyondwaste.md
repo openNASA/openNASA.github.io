@@ -1,6 +1,6 @@
 Title: #BeyondWaste
 Date: 2012-07-16 22:31
-Author: beck
+Author: Beth Beck
 Category: OpenGov
 Tags: collaboration, Innovation, LAUNCH
 Slug: beyondwaste

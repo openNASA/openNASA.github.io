@@ -1,6 +1,6 @@
 Title: Credits
 Date: 2011-07-27 19:05
-Author: nskytlan
+Author: Nick Skytland
 Slug: credits
 
 ![Science Hack Day][]

@@ -1,6 +1,6 @@
 Title: NASA Forward Maker Camp
 Date: 2011-07-26 20:36
-Author: agllewel
+Author: Ali Llewellyn
 Slug: maker-source
 
 ![Satellite view of the United States showing the relative locations of

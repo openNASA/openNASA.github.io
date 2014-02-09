@@ -1,6 +1,6 @@
 Title: #SpaceApps: Space Makes Anything Possible
 Date: 2012-03-18 22:59
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: hackathon, Inspiration, Open Data, physical apps, software development, space apps
 Slug: spaceapps-space-makes-anything-possible

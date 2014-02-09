@@ -1,6 +1,6 @@
 Title: What is NASA doing with Big Data today?
 Date: 2012-10-04 17:00
-Author: nskytlan
+Author: Nick Skytland
 Category: OpenGov
 Tags: big data, Open Data, open government, Open Innovation, Open Source, TopCoder
 Slug: what-is-nasa-doing-with-big-data-today

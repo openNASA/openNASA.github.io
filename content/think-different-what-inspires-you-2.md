@@ -1,6 +1,6 @@
 Title: Think different: what inspires you?
 Date: 2011-07-27 06:33
-Author: agllewel
+Author: Ali Llewellyn
 Category: OpenGov
 Tags: human spaceflight, Inspiration, vision
 Slug: think-different-what-inspires-you-2
