@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Creating spaceappschallenge.org</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">openNASA </a></h1>
+                <nav><ul>
+                    <li><a href="/category/it-summit-opengov.html">IT Summit, OpenGov</a></li>
+                    <li><a href="/category/misc.html">misc</a></li>
+                    <li class="active"><a href="/category/opengov.html">OpenGov</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/creating-spaceappschallenge-org.html" rel="bookmark"
+           title="Permalink to Creating spaceappschallenge.org">Creating spaceappschallenge.org</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-04-15T00:04:00">
+                Mon 15 April 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/sherron.html">sherron</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/spaceapps.html">spaceapps</a><a href="/tag/spaceappschallenge.html">spaceappschallenge</a><a href="/tag/spaceappschallengeorg.html">spaceappschallenge.org</a><a href="/tag/web.html">web</a></p>
+</footer><!-- /.post-info -->      <p>It's 4:39am and I'm staring at a blank screen.</p>
+<p>&quot;Well, that's just great,&quot; I say to myself before making a quick edit
+and switching over to my command line prompt.</p>
+<pre class="literal-block">
+$ git add . &amp;&amp; git commit -m &quot;Please let it work this time&quot;
+$ fab deploy development
+</pre>
+<p>I refresh my browser and see an image of the blue marble with 75
+colorful icons and a slowly moving International Space Station sliding
+across the screen. Success. Issue ticket closed.</p>
+<p>That's been the story of my life, and the lives of the rest of the team
+behind <a class="reference external" href="http://spaceappschallenge.org">spaceappschallenge.org</a>, over the past few weeks as we prepared
+the site to go live, first as a soft launch on March 3rd, and later as a
+full rollout last week. We've spent a lot of time on the site and are
+really proud of the result.</p>
+<p>Last year, I wrote up a brief overview of the platform we created, and I
+wanted to do same for our 2013 site. We've rewritten the code from the
+ground up to incorporate a lot of the things we wanted to do in 2012 but
+weren't able to. The site incorporates some of the latest techniques and
+methodologies in web development, and it's our hope that it can serve as
+a model for how government websites can be built in the future.</p>
+<div class="section" id="methodology">
+<h2>Methodology</h2>
+<p>I'm a big fan of responsive and adaptive design. Responsive design is
+the concept of making content flexible to the device on which it is
+viewed - whether that be on a mobile phone, tablet, laptop, desktop, or
+any other medium. With 50% of US web traffic slated to be mobile in the
+next few years, and our huge focus on countries where mobile device
+deployments far outpace traditional internet access, this was critical.
+Our 2012 website was responsive as well (utilizing the Skeleton
+framework), but we took it one step further this year by making it
+<em>mobile first</em>. With mobile first design, we approached the site with a
+very different mindset. While traditionally, you would design your
+website for the desktop and then scale down to mobile, with mobile first
+you design for mobile and then scale up to desktop. For us, this had a
+few notable benefits:</p>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Compatibility</dt>
+<dd><p class="first last">Rather than try and fight browsers and pull content out that doesn't</p>
+</dd>
+</dl>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/Users/Sean/Code/opennasa/opennasa.github.io/content/creating-spaceappschallenge-org.rst</tt>, line 55)</p>
+<p>Definition list ends without a blank line; unexpected unindent.</p>
+</div>
+<p>scale or doesn't work, we're able to progressively enhance and build
+on top of a base. This is really important for things like Internet
+Explorer 8 compatibility - rather than things just not working we're
+able to serve a slightly less nice looking experience but ultimately
+still deliver the content.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Ease of Building</dt>
+<dd><p class="first last">It's a lot easier to add things on top rather than pull things out.</p>
+</dd>
+</dl>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/Users/Sean/Code/opennasa/opennasa.github.io/content/creating-spaceappschallenge-org.rst</tt>, line 62)</p>
+<p>Definition list ends without a blank line; unexpected unindent.</p>
+</div>
+<p>Rather than having to write super specific CSS (and probably use a
+lot of undesirable !important tags), we're able to just overwrite the
+CSS we want to.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Information Architecture</dt>
+<dd><p class="first last">Building mobile first really forced us to reconsider the importance</p>
+</dd>
+</dl>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/Users/Sean/Code/opennasa/opennasa.github.io/content/creating-spaceappschallenge-org.rst</tt>, line 67)</p>
+<p>Definition list ends without a blank line; unexpected unindent.</p>
+</div>
+<p>of a lot of our content. You'll notice the front page, for instance,
+has a lot less content than this year. We also concentrated on trying
+to eliminate unneeded links, instead focusing on touch friendly
+imagery and buttons to provide an easier to navigate interface.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="backend">
+<h2>Backend</h2>
+<p>As with last year, the site is built on Django, a Python framework.
+We've found Django to be both extensible and easy to use, an important
+factor considering no one on our team is a full-time developer. We have
+four major components of our backend architecture:</p>
+<ul class="simple">
+<li>Locations</li>
+<li>Challenges</li>
+<li>Projects</li>
+<li>Users</li>
+</ul>
+<p>Rather than introducing a lot of dependencies on our models as we did
+last year, Space Apps 2013 focuses much more on an object-oriented
+model. For future usage, it is much easier to move components of the
+above four items to other projects or to strike one from another
+deployment of the platform.</p>
+</div>
+<div class="section" id="frontend">
+<h2>Frontend</h2>
+<p>Our fronted is based on Foundation Zurb, a great framework that provides
+a lot of baseline CSS and Javascript to jumpstart web projects. We used
+a few tools pretty extensively in our development:</p>
+<div class="section" id="sass">
+<h3>SASS</h3>
+<p>SASS is a CSS preprocessor that offers a lot of enhancements over plain
+CSS, such as nested rules, variables, and mixing to quicken development.</p>
+</div>
+<div class="section" id="leaflet-openstreetmaps-mapquest-open-maps">
+<h3>Leaflet, OpenStreetMaps, &amp; Mapquest Open Maps</h3>
+<p>Leaflet powers all of the mapping solutions on the site. We use a
+combination of OpenStreetMaps and NASA Satellite imagery tiles served by
+Mapquest's CDN.</p>
+</div>
+<div class="section" id="isotope">
+<h3>Isotope</h3>
+<p>We use Isotope to power some of the sorting and filtering for
+Challenges.</p>
+</div>
+<div class="section" id="wysihtml5">
+<h3>Wysihtml5</h3>
+<p>Wysihtml5 powers all of our backend WYSIWYG inline editing.</p>
+</div>
+<div class="section" id="typekit">
+<h3>Typekit</h3>
+<p>We use Typekit to serve our web fonts</p>
+</div>
+<div class="section" id="disqus">
+<h3>Disqus</h3>
+<p>Disqus powers our commenting system on challenges and projects. We've
+used their SSO option so that users can use the same identity between
+platforms.</p>
+</div>
+<div class="section" id="hackpad">
+<h3>Hackpad</h3>
+<p>We use Hackpad's new API to offer collaboration tools for challenges and
+projects</p>
+</div>
+<div class="section" id="cloudflare">
+<h3>Cloudflare</h3>
+<p>We use Cloudflare to help us more efficiently serve content around the
+world.</p>
+</div>
+<div class="section" id="google-apps">
+<h3>Google Apps</h3>
+<p>We use Google Apps to power some internal mailing lists.</p>
+<p>To me, the Space Apps website is much more than just a platform for us
+to offer our event on - it's a testbed for some of the latest web
+technologies to be played around with. My hope is that others both
+inside and outside government can fork our code, learn from our
+experiences, and improve on our work.</p>
+<p>We also view the Space Apps website as a work in progress - we hope that
+citizens like yourself can help us make it even better than it already
+is. If you see a bug, something that can be improved, or anything else
+you think we should know about, drop us a line in the comments below.
+We'd love to hear from you.</p>
+</div>
+</div>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
