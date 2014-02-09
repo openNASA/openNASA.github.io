@@ -1,7 +1,0 @@
-Dev
-###
-:date: 2013-05-19 15:04
-:author: nskytlan
-:slug: 8410
-
-

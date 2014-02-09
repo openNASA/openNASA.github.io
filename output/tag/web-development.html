@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>openNASA - web development</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">openNASA </a></h1>
+                <nav><ul>
+                    <li><a href="/category/content.html">content</a></li>
+                    <li><a href="/category/it-summit-opengov.html">IT Summit, OpenGov</a></li>
+                    <li><a href="/category/opengov.html">OpenGov</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/behind-the-site-spaceappschallenge-org.html">Behind the Site: spaceappschallenge.org</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2012-04-06T01:36:00">
+                Fri 06 April 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/sherron.html">sherron</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/css3.html">css3</a><a href="/tag/django.html">django</a><a href="/tag/html5.html">html5</a><a href="/tag/space-apps-challenge.html">space apps challenge</a><a href="/tag/spaceapps.html">spaceapps</a><a href="/tag/technology.html">technology</a><a href="/tag/web-development.html">web development</a><a href="/tag/wordpress.html">wordpress</a></p>
+</footer><!-- /.post-info --><p>If you follow openNASA, you’ve no doubt heard of the <a href="http://spaceappschallenge.org">International
+Space Apps Challenge</a> – our global codeathon taking place on all seven
+continents and in space next month. Last month, we launched a new
+<a href="http://spaceappschallenge.org">website</a> for the Challenge that
+allows visitors to sign up for events, view and submit challenges, and
+learn more about the event. We put a lot of effort in to making it
+cutting edge by using the latest web technologies and standards to
+provide an excellent user experience. This post will showcase just some
+of the methods we used to make the site, and give you some ideas for
+creating one yourself.</p>
+<p>[<img alt="" src="http://open.nasa.gov/wp-content/uploads/2012/03/Screen-shot-2012-03-23-at-2.09.24-AM-300x241.png" title="Screen shot 2012-03-23 at 2.09.24 AM" />][]</p>
+<p><strong>The Methodology</strong></p>
+<p>One of the biggest challenges in creating the site was that, due to our
+global audience, we had to ensure the site is compatible and accessible
+across a wide range of devices, screen sizes, and internet speeds. The
+site is fully responsive, meaning that by using some HTML and CSS
+trickery, we’re able to serve up different designs depending on the
+user’s screen size. Try it now – visit
+<a href="http://spaceappschallenge.org">spaceappschallenge.org</a> on a
+smartphone and a desktop at the same time. You’ll see two different
+designs, even though each uses the same HTML files.</p>
+<p>Responsive design is becoming increasingly important on the web as more
+and more users access websites using smartphones, tablets, and other
+small devices. By optimizing the site to a range of user experiences, we
+don’t lock people in to viewing a design best suited for a desktop
+monitor.</p>
+<p>The site also makes much use of the HTML5 and CSS3 standards. CSS3
+allows us to duplicate a lot of the design features that previously
+required images, meaning that pages load faster and our design is more
+flexible. The framework of the site is built off of a combination of the
+<a href="http://getskelton.com">Skelton</a> flexible grid system, with some design elements taken from
+<a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>. We also make use of <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a>, which
+allows us to use a webfont for icons rather than images. By using these
+forward-leaning practices, we can considerably cut down on file sizes
+and offer a faster and more accessible experience to visitors.</p>
+<p>Accessibility for us also meant making the site available in as many
+different ways as possible. For instance, much of our content is encoded
+in <a href="http://microformats.org/">Microformats</a>, which extends our HTML in a semantic way to be
+understandable by machines. Additionally, we're working with our
+location partners to offer translations of content where appropriate.
+The Tokyo location, for instance, offers a <a href="http://tokyo.spaceappschallenge.org">Japanese translation</a>.</p>
+<p><strong>The Backend</strong></p>
+<p>Apart from our design philosophy, we also strived to create a backend
+system that enables flexibility, stability, and performance. The site is
+hosted on a cloud platform running Linux and powered by <a href="http://nginx.org/">nginx</a> and
+<a href="http://www.postgresql.org/">Postgres</a>. While our sites have traditionally run on <a href="http://wordpress.org">WordPress</a>,
+we decided to go with a Django-based platform. This is due to some of
+the particular needs of the site, such as event registration and project
+collaboration. We utilize extensive server-side caching to improve
+performance and automatically compress and minify our HTML, CSS, and
+Javascript. On the design side, our templates were styled using <a href="http://lesscss.org">LESS</a>
+and we used the helpLESS library to help us do some common tasks more
+effectively.</p>
+<p><strong>Design Philosophy</strong></p>
+<p>Ultimately, the technologies and methodologies I have written about are
+the things that the end-user is least likely to care about. On the web,
+design is paramount. We wanted the Apps Challenge site to be visually
+striking and immediately impart a sense of global collaboration to the
+visitor. We spent a lot of effort on creating the main design element on
+the front page - the map of the world with tags for every location where
+the Space Apps Challenge is taking place. Now, doing this with a map of
+the Earth is pretty easy (which is lucky, because we've been adding
+locations left and right recently!). The difficult part is showing the
+highest and fastest-moving location: the International Space Station. We
+first experimented with just showing a static icon of the station over
+the pacific ocean. Pretty boring. We decided it had to be animated and
+move across the screen. Here's a little secret, however: the station
+does not actually show up where it really is on the planet. We
+experimented with making the image live-update as the station crossed
+over the globe, but ultimately decided not to for a few reasons:</p>
+<p>​1) The code required to do so would be much heavier than we were
+willing to put on the site.<br />
+2) The projection of the map on the homepage is slightly different than
+the projections of most orbital tracks posted by NASA, meaning that we
+would have had to translate coordinates to our projection.<br />
+3) The station would have moved realllllly slowly on the screen. Most
+users probably wouldn't have even noticed it.</p>
+<p>Thus, we made a small sacrifice - instead, the station follows an
+orbital-like wave across the map using jQuery animation and the <a href="https://github.com/weepy/jquery.path">path
+plugin</a>.</p>
+<p>Beyond the homepage, we focused on making the site lightweight but
+incorporating design elements that reinforce that feeling of global
+collaboration - Google Maps integration, for instance.</p>
+<p><strong>Conclusion</strong></p>
+<p>I hope this post has given you at least a glimpse into our web
+philosophy and the direction in which we see taking our other properties
+(<a href="open.nasa.gov">open.nasa.gov</a>, <a href="data.nasa.gov">data.nasa.gov</a>, and <a href="code.nasa.gov">code.nasa.gov</a>) in the
+future. We see the recent trend of accessible &amp; responsive design as
+critical to the next generation of web experiences. Our goal is to make
+our content as open, accessible, and flexible as possible. We are open
+to feedback and ideas about how we can further this even more - please
+leave a comment and let us know what you think! Finally, none of what
+we've accomplished on the site would have been possible without the help
+of everyone on the Space Apps Challenge team, including Kristen
+Painting, Ali Llewellyn, Nick Skytland, Elizabeth Sabet, Chris Gerty,
+and William Eshagh. William was core in creating the backend of the site
+to go along with the frontend I developed - without him, we'd have no
+django, no server, and no site.</p>
+<p>If you're interested in hearing more about our approach to web
+development and user experience, see my <a href="http://wordpress.tv/2012/03/06/sean-herron-how-non-profits-and-government-organizations-of-all-sizes-can-use-wordpress-to-successfully-create-and-operate-a-website/">recent talk</a> from WordCamp
+Phoenix on the topic.</p>
+<p>[<img alt="" src="http://open.nasa.gov/wp-content/uploads/2012/03/Screen-shot-2012-03-23-at-2.09.24-AM-300x241.png" title="Screen shot 2012-03-23 at 2.09.24 AM" />]: http://open.nasa.gov/wp-content/uploads/2012/03/Screen-shot-2012-03-23-at-2.09.24-AM.png</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/publishing-the-open-source-way.html" rel="bookmark"
+                           title="Permalink to Publishing the Open Source Way">Publishing the Open Source Way</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-07-28T18:23:00">
+                Thu 28 July 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/sherron.html">sherron</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/open-source.html">Open Source</a><a href="/tag/opennasa.html">open.NASA</a><a href="/tag/web-development.html">web development</a></p>
+</footer><!-- /.post-info -->                <p>Developing open.nasa.gov was, to say the least, an interesting process.
+Born out of an effort by <a href="http://open.nasa.gov/blog/author/skytland/" title="Nick Skytland">Nick Skytland</a> over five years ago, we first
+began drafting some ideas on how the site will look, feel, and function
+last fall. The preliminary designs we created were the designs we ...</p>
+                <a class="readmore" href="/publishing-the-open-source-way.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
