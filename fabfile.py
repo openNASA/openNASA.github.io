@@ -1,6 +1,7 @@
 from fabric.api import *
 import fabric.contrib.project as project
 import os
+import datetime
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
@@ -40,6 +41,15 @@ def reserve():
 
 def preview():
     local('pelican -s publishconf.py')
+    
+def ghb():
+    build()
+    local ('git add output')
+    local('git commit -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
+    local('ghp-import output')
+    local('git push origin gh-pages')
+    
+    
 
 def cf_upload():
     rebuild()
