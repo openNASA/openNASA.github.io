@@ -43,10 +43,11 @@ def preview():
     local('pelican -s publishconf.py')
     
 def ghb():
-    commit = prompt("Enter your commit text:")
-    local('git commit -a -m "%s"' % commit)
     build()
-    local('git commit -A -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
+    local ('git add output')
+    local('git commit -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
+    local('ghp-import output')
+    local('git push origin gh-pages')
     
     
 
