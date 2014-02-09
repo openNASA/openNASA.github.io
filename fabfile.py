@@ -1,6 +1,7 @@
 from fabric.api import *
 import fabric.contrib.project as project
 import os
+import datetime
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
@@ -42,12 +43,12 @@ def preview():
     local('pelican -s publishconf.py')
     
 def ghb():
-    #build()
     commit = prompt("Enter your commit text:")
     local('git commit -a -m "%s"' % commit)
-    local('git checkout -b gh-pages')
-    local('rm -rf !(output)')
-    local('mv output .')
+    build()
+    local('git commit -a -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
+    
+    
 
 def cf_upload():
     rebuild()
