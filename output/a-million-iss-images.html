@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>A Million ISS Images</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">openNASA </a></h1>
+                <nav><ul>
+                    <li><a href="/category/content.html">content</a></li>
+                    <li><a href="/category/it-summit-opengov.html">IT Summit, OpenGov</a></li>
+                    <li class="active"><a href="/category/opengov.html">OpenGov</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/a-million-iss-images.html" rel="bookmark"
+           title="Permalink to A Million ISS Images">A Million ISS Images</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-04-02T09:35:00">
+                Tue 02 April 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/nbergey.html">nbergey</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/iss.html">ISS</a><a href="/tag/open-data.html">Open Data</a><a href="/tag/participation.html">Participation</a><a href="/tag/space-apps.html">space apps</a></p>
+</footer><!-- /.post-info -->      <p><em>We've always been a fan of <a href="http://mechanicalintegrator.com/2011/iss-notify/">ISS Notify</a>... but when the open.NASA
+team saw the <a href="http://natronics.github.com/ISS-photo-locations/">latest project</a> from <a href="https://twitter.com/natronics">Nate Bergey</a>, we wanted to get
+him to share it directly with you. This project exemplifies why we share
+our <a href="http://data.nasa.gov/">open data</a> with the public as well as the kind of inspiration
+we're anticipating at the upcoming <a href="http://spaceappschallenge.org/">Space Apps Challenge</a>. Hopefully
+this will be the first in a long series of posts by Nate and other
+innovators who are using space data to create great things. </em></p>
+<p>I’ve always been fascinated with space. I’ve done plenty of <a href="http://www.flickr.com/photos/natronics/5310760993/">looking up
+at the skies</a> throughout my life, wondering what I would see if I were
+up there looking back down below.</p>
+<p>I use NASA data every day, even though I don’t work for NASA.  They have
+many detailed and rich datasets available for reading/viewing by the
+general public. The problem though is that they are often published in
+archaic formats buried under hard to use interfaces. But with a little
+ingenuity, anyone can get their hands on amazing data about the universe
+we live in.</p>
+<p>For instance, I love the photographs that are being downloaded from the
+International Space Station’s cameras. Each one inspires me to dream of
+floating high above our blue planet. Sometimes, I wonder, what do the
+astronauts mostly take pictures of? In order to find out, I had to get
+some data.</p>
+<p>The Image Science &amp; Analysis Laboratory, at Johnson Space Center in
+Houston, Texas, maintains a [giant database of all the photographs
+astronauts have ever taken in space][].  Luckily, they also have a
+<a href="http://eol.jsc.nasa.gov/sseop/mrf.htm">database search page</a> that allows you to ask for information about
+photos from particular missions, and features all kinds of metadata.</p>
+<p>It’s possible to <a href="http://en.wikipedia.org/wiki/Web_scraping">screen scrape</a> the search result pages, using
+popular programing languages like python and tools like <a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful
+Soup</a>, creating your personal mini database of the data you care
+about. In my case, it was the approximate latitude and longitude of the
+photos taken from the ISS, or at the very least, the position of the
+station when the photo was taken.</p>
+<p>So, I wrote some python scripts to do this for me a few pages at a time,
+and I ended up with the location of 1,129,177 photos!<strong> </strong></p>
+<h1 dir="ltr">Visualization</h1>
+<p>The next step was to put the data on a map. To do this, I decided to
+draw each photo as a single pixel on a blank image. This is actually
+really easy in python using cairo.</p>
+<p>The result is a giant map of Earth, based only on images from the ISS!</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss.preview.png"><img alt="All ISS" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss.preview.png" /></a></p>
+<p>Most of the photos are taken of land masses. Coastlines, islands and
+cities seem to be popular targets. So much, that it’s possible to
+identify outline of continents. This makes sense, photos of clouds over
+an otherwise blank ocean get old after a while. I’m sure every astronaut
+has taken at least one photograph of the town they grew up in.</p>
+<p>Now, let’s divide up the dots by mission. Is there any pattern? Here I
+draw each mission in a different color:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions.preview.png"><img alt="All ISS Missions" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions.preview.png" /></a></p>
+<p>The map is dominated by purple, light blue, and green with some yellow.
+Also notice that the purple dots make almost uninterrupted orbit lines
+while most of the other dots seem to fill in randomly. This is because
+during Expedition 30/31 <a href="http://vimeo.com/61083440">Don Pettit took dozens of amazing time lapse
+sequences</a> consisting of hundreds of images taken continuously as the
+ISS orbited. In fact he’s single-handedly responsible for almost half
+the images taken on orbit!</p>
+<p>One more thing we can do is add a map underneath to see exactly how the
+photos line up:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions_map.preview.png"><img alt="All ISS Missions by Map" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions_map.preview.png" /></a></p>
+<p>You can see that the ISS stays between about 50° and -50° latitude as it
+orbits the Earth The <a href="http://en.wikipedia.org/wiki/Orbital_inclination">inclination</a> of the orbit of the station is in
+fact 51.6°.</p>
+<p>Since it’s hard to see the overlapped colors in the above image here is
+a collection maps with the photos from each mission mapped separately:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/small_mult.preview.png"><img alt="Multiple Maps" src="http://open.nasa.gov/wp-content/uploads/2013/04/small_mult.preview.png" /></a></p>
+<p>This is just some of the data that NASA has to offer. If you’re
+interested in getting involved in things like this I suggest taking a
+look at <a href="http://data.nasa.gov/">data.nasa.gov</a> and <a href="http://spaceappschallenge.org/">International Space Apps
+Challenge</a>.</p>
+<p>You can also <a href="http://natronics.github.com/ISS-photo-locations/">download the data I scraped from my github page</a>.</p>
+<p>[giant database of all the photographs astronauts have ever taken in
+  space]: http://eol.jsc.nasa.gov/</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

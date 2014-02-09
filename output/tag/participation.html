@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>openNASA - Participation</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">openNASA </a></h1>
+                <nav><ul>
+                    <li><a href="/category/content.html">content</a></li>
+                    <li><a href="/category/it-summit-opengov.html">IT Summit, OpenGov</a></li>
+                    <li><a href="/category/opengov.html">OpenGov</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/a-million-iss-images.html">A Million ISS Images</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2013-04-02T09:35:00">
+                Tue 02 April 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/nbergey.html">nbergey</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/iss.html">ISS</a><a href="/tag/open-data.html">Open Data</a><a href="/tag/participation.html">Participation</a><a href="/tag/space-apps.html">space apps</a></p>
+</footer><!-- /.post-info --><p><em>We've always been a fan of <a href="http://mechanicalintegrator.com/2011/iss-notify/">ISS Notify</a>... but when the open.NASA
+team saw the <a href="http://natronics.github.com/ISS-photo-locations/">latest project</a> from <a href="https://twitter.com/natronics">Nate Bergey</a>, we wanted to get
+him to share it directly with you. This project exemplifies why we share
+our <a href="http://data.nasa.gov/">open data</a> with the public as well as the kind of inspiration
+we're anticipating at the upcoming <a href="http://spaceappschallenge.org/">Space Apps Challenge</a>. Hopefully
+this will be the first in a long series of posts by Nate and other
+innovators who are using space data to create great things. </em></p>
+<p>I’ve always been fascinated with space. I’ve done plenty of <a href="http://www.flickr.com/photos/natronics/5310760993/">looking up
+at the skies</a> throughout my life, wondering what I would see if I were
+up there looking back down below.</p>
+<p>I use NASA data every day, even though I don’t work for NASA.  They have
+many detailed and rich datasets available for reading/viewing by the
+general public. The problem though is that they are often published in
+archaic formats buried under hard to use interfaces. But with a little
+ingenuity, anyone can get their hands on amazing data about the universe
+we live in.</p>
+<p>For instance, I love the photographs that are being downloaded from the
+International Space Station’s cameras. Each one inspires me to dream of
+floating high above our blue planet. Sometimes, I wonder, what do the
+astronauts mostly take pictures of? In order to find out, I had to get
+some data.</p>
+<p>The Image Science &amp; Analysis Laboratory, at Johnson Space Center in
+Houston, Texas, maintains a [giant database of all the photographs
+astronauts have ever taken in space][].  Luckily, they also have a
+<a href="http://eol.jsc.nasa.gov/sseop/mrf.htm">database search page</a> that allows you to ask for information about
+photos from particular missions, and features all kinds of metadata.</p>
+<p>It’s possible to <a href="http://en.wikipedia.org/wiki/Web_scraping">screen scrape</a> the search result pages, using
+popular programing languages like python and tools like <a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful
+Soup</a>, creating your personal mini database of the data you care
+about. In my case, it was the approximate latitude and longitude of the
+photos taken from the ISS, or at the very least, the position of the
+station when the photo was taken.</p>
+<p>So, I wrote some python scripts to do this for me a few pages at a time,
+and I ended up with the location of 1,129,177 photos!<strong> </strong></p>
+<h1 dir="ltr">Visualization</h1>
+<p>The next step was to put the data on a map. To do this, I decided to
+draw each photo as a single pixel on a blank image. This is actually
+really easy in python using cairo.</p>
+<p>The result is a giant map of Earth, based only on images from the ISS!</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss.preview.png"><img alt="All ISS" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss.preview.png" /></a></p>
+<p>Most of the photos are taken of land masses. Coastlines, islands and
+cities seem to be popular targets. So much, that it’s possible to
+identify outline of continents. This makes sense, photos of clouds over
+an otherwise blank ocean get old after a while. I’m sure every astronaut
+has taken at least one photograph of the town they grew up in.</p>
+<p>Now, let’s divide up the dots by mission. Is there any pattern? Here I
+draw each mission in a different color:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions.preview.png"><img alt="All ISS Missions" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions.preview.png" /></a></p>
+<p>The map is dominated by purple, light blue, and green with some yellow.
+Also notice that the purple dots make almost uninterrupted orbit lines
+while most of the other dots seem to fill in randomly. This is because
+during Expedition 30/31 <a href="http://vimeo.com/61083440">Don Pettit took dozens of amazing time lapse
+sequences</a> consisting of hundreds of images taken continuously as the
+ISS orbited. In fact he’s single-handedly responsible for almost half
+the images taken on orbit!</p>
+<p>One more thing we can do is add a map underneath to see exactly how the
+photos line up:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions_map.preview.png"><img alt="All ISS Missions by Map" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions_map.preview.png" /></a></p>
+<p>You can see that the ISS stays between about 50° and -50° latitude as it
+orbits the Earth The <a href="http://en.wikipedia.org/wiki/Orbital_inclination">inclination</a> of the orbit of the station is in
+fact 51.6°.</p>
+<p>Since it’s hard to see the overlapped colors in the above image here is
+a collection maps with the photos from each mission mapped separately:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/small_mult.preview.png"><img alt="Multiple Maps" src="http://open.nasa.gov/wp-content/uploads/2013/04/small_mult.preview.png" /></a></p>
+<p>This is just some of the data that NASA has to offer. If you’re
+interested in getting involved in things like this I suggest taking a
+look at <a href="http://data.nasa.gov/">data.nasa.gov</a> and <a href="http://spaceappschallenge.org/">International Space Apps
+Challenge</a>.</p>
+<p>You can also <a href="http://natronics.github.com/ISS-photo-locations/">download the data I scraped from my github page</a>.</p>
+<p>[giant database of all the photographs astronauts have ever taken in
+  space]: http://eol.jsc.nasa.gov/</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/pioneering-the-future-together-space-apps-manila.html" rel="bookmark"
+                           title="Permalink to Pioneering the Future Together: Space Apps Manila">Pioneering the Future Together: Space Apps Manila</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-02-20T12:20:00">
+                Wed 20 February 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/locations.html">locations</a><a href="/tag/participation.html">Participation</a><a href="/tag/space-apps.html">space apps</a></p>
+</footer><!-- /.post-info -->                <p><em>58 days and counting until the 2013 International Space Apps Challenge!
+Local leads at 70 sites all over the world are in the midst of
+preparations to engage their local communities in building and creating
+better tools to explore and communicate about space. We invited Manila
+local lead Dean Marc ...</em></p>
+                <a class="readmore" href="/pioneering-the-future-together-space-apps-manila.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/asking-you-anything-what-should-nasa-do-next.html" rel="bookmark"
+                           title="Permalink to Asking YOU anything: What should NASA do next?">Asking YOU anything: What should NASA do next?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-12-07T16:18:00">
+                Fri 07 December 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/participation.html">Participation</a><a href="/tag/participatory-exploration.html">participatory exploration</a><a href="/tag/ron-garan.html">ron garan</a><a href="/tag/social-media.html">Social Media</a></p>
+</footer><!-- /.post-info -->                <p>On the social media platform <a href="http://reddit.com">Reddit</a>, notable people often hold
+events called <a href="http://en.wikipedia.org/wiki/Reddit#Reddit_IAmA">Ask Me Anything (AMA</a>) where users are invited to ask
+anything they wish. They are the experts... and "redditors" have direct
+access to discuss, engage and learn from these celebrities, leaders and
+notable citizens.</p>
+<p>NASA astronaut and openNASA ...</p>
+                <a class="readmore" href="/asking-you-anything-what-should-nasa-do-next.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/were-in-this-together-why-mass-collaboration-is-changing-our-approach-to-problem-solving-in-government.html" rel="bookmark"
+                           title="Permalink to We're In This Together: Why Mass Collaboration is Changing Our Approach to Problem Solving in Government">We're In This Together: Why Mass Collaboration is Changing Our Approach to Problem Solving in Government</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-11-05T12:05:00">
+                Mon 05 November 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/nskytlan.html">nskytlan</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/mass-collaboration.html">Mass Collaboration</a><a href="/tag/open-government.html">open government</a><a href="/tag/orbital-perspective.html">orbital perspective</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p><em>This blog post/essay is a summary of the TEDxHouston talk given on 3
+November 2012.  A special thank you to Redbull for use of the image of
+Felix Baumgarter jumping from the edge of space, to Sam Wilkinson for
+the picture of himself, to <a href="mixedgreensblog.com">Sally Shintaffer</a> for the use ...</em></p>
+                <a class="readmore" href="/were-in-this-together-why-mass-collaboration-is-changing-our-approach-to-problem-solving-in-government.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/the-power-of-hackathons-in-government.html" rel="bookmark"
+                           title="Permalink to The power of hackathons in government">The power of hackathons in government</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-06-29T12:28:00">
+                Fri 29 June 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/collaboration.html">collaboration</a><a href="/tag/government.html">government</a><a href="/tag/hackathons.html">Hackathons</a><a href="/tag/participation.html">Participation</a><a href="/tag/participatory-exploration.html">participatory exploration</a><a href="/tag/rhok.html">RHoK</a><a href="/tag/space-apps.html">space apps</a></p>
+</footer><!-- /.post-info -->                <p>Chris Vein (US deputy CTO for government innovation) has continually
+supported the use of hackathons in developing government innovation. He
+<a href="http://gov20radio.com/2012/04/countdown-spaceapps/">noted</a> that these events were exceptional as a ‘sensemaking’ tool for
+government, encouraging agencies to "…find groups of people, bring them
+together around an issue or problem that needs to ...</p>
+                <a class="readmore" href="/the-power-of-hackathons-in-government.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/mars-forum.html" rel="bookmark"
+                           title="Permalink to MARS FORUM">MARS FORUM</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-06-13T15:51:00">
+                Wed 13 June 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/exploration.html">exploration</a><a href="/tag/ideascale.html">Ideascale</a><a href="/tag/mars.html">Mars</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p>NASA is currently charting a new agency-wide strategy for the future of
+Mars exploration, both robotic and human.  Involvement from the science
+&amp; technical community and all interested members of the general public
+is essential to this process.</p>
+<p>Today, NASA’s Mars Program Planning Group (MPPG) is opening up a new ...</p>
+                <a class="readmore" href="/mars-forum.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/space-apps-lessons-in-global-innovation.html" rel="bookmark"
+                           title="Permalink to Space Apps: Lessons in Global Innovation">Space Apps: Lessons in Global Innovation</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-06-01T10:42:00">
+                Fri 01 June 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/hjstephe.html">hjstephe</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/collaboration.html">collaboration</a><a href="/tag/innovation.html">Innovation</a><a href="/tag/international.html">international</a><a href="/tag/open-data.html">Open Data</a><a href="/tag/open-government-partnership.html">Open Government Partnership</a><a href="/tag/participation.html">Participation</a><a href="/tag/space-apps.html">space apps</a></p>
+</footer><!-- /.post-info -->                <p><em>Haley Stephenson’s excellent article first appeared in Volume 5, Issue
+5 of NASA’s ASK the Academy, found <a href="http://www.nasa.gov/offices/oce/appel/ask-academy/issues/volume5/5-5_int_space_apps.html">here</a>. You can contact Haley
+directly <a href="mailto:haley.stephenson@valador.com">here</a>. </em></p>
+<p>Lessons from a global innovation event may inspire new ways to solve
+project-based challenges concurrently.</p>
+<p>When Paul MacCready decided to contend for the 1959 ...</p>
+                <a class="readmore" href="/space-apps-lessons-in-global-innovation.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/preliminary-results-from-the-international-space-apps-challenge.html" rel="bookmark"
+                           title="Permalink to Preliminary Results from the International Space Apps Challenge">Preliminary Results from the International Space Apps Challenge</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-04-24T05:29:00">
+                Tue 24 April 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/nskytlan.html">nskytlan</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/collaboration.html">collaboration</a><a href="/tag/hackathon.html">hackathon</a><a href="/tag/international-space-apps-challenge.html">International Space Apps Challenge</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p><em>111 orgs, 25 cities, 17 countries, 2,083 pple, 71 challenges, 100+
+solutions in 48 hours.<br />
+</em></p>
+<p>This weekend, NASA successfully fulfilled a commitment on behalf of the
+United States as part of the <a href="http://www.opengovpartnership.org/">Open Government Partnership</a> Domestic
+Action Plan.  The stated goal of the event, per the <a href="http://www.opengovpartnership.org/sites/www.opengovpartnership.org/files/country_action_plans/US_National_Action_Plan_Final_2.pdf">US Action Plan ...</a></p>
+                <a class="readmore" href="/preliminary-results-from-the-international-space-apps-challenge.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/a-new-world-of-innovation.html" rel="bookmark"
+                           title="Permalink to A New World of Innovation">A New World of Innovation</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-02-29T23:26:00">
+                Wed 29 February 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/collaboration.html">collaboration</a><a href="/tag/education.html">Education</a><a href="/tag/innovation.html">Innovation</a><a href="/tag/participation.html">Participation</a><a href="/tag/space-apps.html">space apps</a><a href="/tag/syracuse.html">Syracuse</a></p>
+</footer><!-- /.post-info -->                <p><em>The Open Government Initiative is excited to invite Syracuse University
+industrial and interaction design student <a href="mailto:kljeremk@syr.edu">Katy Jeremko</a> to share
+about the recent design charrette that Syracuse held in advance of the
+<a href="http://rhok.org/space">International Space Apps Challenge</a>. This interactive <a href="http://syr.edu/news/articles/2012/space-apps-02-12.html">event</a>
+offered university students an opportunity to dialogue about space data
+while helping ...</em></p>
+                <a class="readmore" href="/a-new-world-of-innovation.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/flynasa-where-the-sky-is-not-the-limit.html" rel="bookmark"
+                           title="Permalink to #FlyNASA: Where the Sky is NOT the Limit">#FlyNASA: Where the Sky is NOT the Limit</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-01-06T17:52:00">
+                Fri 06 January 2012
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/astronauts.html">astronauts</a><a href="/tag/citizen-engagement.html">citizen engagement</a><a href="/tag/flynasa.html">FlyNASA</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p>So you want to be an astronaut?</p>
+<iframe src="http://www.youtube.com/embed/cjmJrqRgdsQ" frameborder="0" width="560" height="315"></iframe>
+
+<p>
+<script type="text/javascript" src="http://cdn-akm.vmixcore.com/vmixcore/js?auto_play=0&amp;cc_default_off=1&amp;player_name=uvp&amp;width=512&amp;height=332&amp;player_id=1aa0b90d7d31305a75d7fa03bc403f5a&amp;t=V0NUKBELjxAcaGXPjMNXqWBulKe4NgA7hq"></script>
+
+Read [here][] for more information about the selection and training
+process.
+
+</p>
+
+<p>Astronaut Cady Coleman shares <a href="http://spaceflight.nasa.gov/outreach/jobsinfo/astronaut101.html">here</a> on her process of becoming an
+astronaut.</p>
+<p>Check out the fascinating <a href="http://blogs.nasa.gov/cm/newui/blog/viewpostlist.jsp?blogname=flynasa">FlyNASA blog</a>, where crewmembers talk about
+what it's like to be an astronaut.</p>
+<p><a href="http://www.usajobs.gov/GetJob/ViewDetails/302967000">Applications</a> are ...</p>
+                <a class="readmore" href="/flynasa-where-the-sky-is-not-the-limit.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/nasa-on-github.html" rel="bookmark"
+                           title="Permalink to NASA on GitHub">NASA on GitHub</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-12-23T13:26:00">
+                Fri 23 December 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/weshagh.html">weshagh</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/code.html">code</a><a href="/tag/open-source.html">Open Source</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p>We love open source. Open source philosophies and collaboration models
+resonate deeply with NASA and <a href="http://www.nasa.gov/about/highlights/what_does_nasa_do.html">our mission</a>. Beyond ideology, open
+source makes it possible for citizens to directly touch their space
+program in very real ways. The collective genius enabled by open source
+emboldens us and helps us reach new ...</p>
+                <a class="readmore" href="/nasa-on-github.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/announcing-the-data-nasa-gov-api.html" rel="bookmark"
+                           title="Permalink to Announcing the data.nasa.gov API">Announcing the data.nasa.gov API</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-10-12T23:59:00">
+                Wed 12 October 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/sherron.html">sherron</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/api.html">api</a><a href="/tag/awesomeness.html">awesomeness</a><a href="/tag/datanasagov.html">data.nasa.gov</a><a href="/tag/open-data.html">Open Data</a><a href="/tag/participation.html">Participation</a><a href="/tag/transparency.html">transparency</a></p>
+</footer><!-- /.post-info -->                <p>We're excited today to announce the launch of our <a href="http://data.nasa.gov/api-info/">Data API</a> for
+<a href="http://data.nasa.gov">data.nasa.gov</a>, the collaborative online database of NASA datasets we
+<a href="https://open.nasa.gov/blog/2011/08/30/introducing-data-nasa-gov/">launched</a> in August. The data.nasa.gov API allows a machine-readable
+interface to return metadata from the site organized by category, tag,
+date, or search term ...</p>
+                <a class="readmore" href="/announcing-the-data-nasa-gov-api.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/real-participatory-exploration-nasas-bed-rest-analog-study-interview-with-pillownaut.html" rel="bookmark"
+                           title="Permalink to Real participatory exploration: NASA's bed rest analog study (Interview with @Pillownaut)">Real participatory exploration: NASA's bed rest analog study (Interview with @Pillownaut)</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-09-22T12:03:00">
+                Thu 22 September 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/analogs.html">analogs</a><a href="/tag/bed-rest.html">bed rest</a><a href="/tag/citizen-science.html">citizen science</a><a href="/tag/life-sciences.html">life sciences</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p>I had just started at NASA when I saw <a href="http://open.nasa.gov/blog/author/nskytlan/">Nick Skytland</a> give this
+presentation on Participatory Exploration, and it captured my
+imagination.</p>
+<div id="__ss_755638" style="width: 425px;">
+
+**[Participatory Exploration][]**
+<iframe src="http://www.slideshare.net/slideshow/embed_code/755638" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="425" height="355"></iframe>
+</p>
+<div style="padding: 5px 0 12px;">
+
+View more [presentations][] from [Nick Skytland][1]
+
+</div>
+
+</div>
+
+<p>This time <strong>you get to participate</strong>. Not 'you get to read about it,' or
+'you can carry the briefcase ...</p>
+                <a class="readmore" href="/real-participatory-exploration-nasas-bed-rest-analog-study-interview-with-pillownaut.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/open-source-development-at-nasa.html" rel="bookmark"
+                           title="Permalink to Open Source Development at NASA">Open Source Development at NASA</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-09-08T19:52:00">
+                Thu 08 September 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/weshagh.html">weshagh</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/code.html">code</a><a href="/tag/gov-20.html">Gov 2.0</a><a href="/tag/inspiration.html">Inspiration</a><a href="/tag/nebula.html">Nebula</a><a href="/tag/open-source.html">Open Source</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <div>
+
+*This post complements a presentation given at the [2011 NASA IT
+Summit][] entitled* [A Case for Bi-lateral Open Source Development: The
+Nebula Story and Key Findings from the Open Source Summit][].  *Although
+written by an attorney, this post is not legal advice or analysis and
+should not be taken as ...</div>
+                <a class="readmore" href="/open-source-development-at-nasa.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/spaceport-innovators-at-ksc.html" rel="bookmark"
+                           title="Permalink to Spaceport Innovators at KSC">Spaceport Innovators at KSC</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-09-06T12:03:00">
+                Tue 06 September 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/community.html">community</a><a href="/tag/innovation.html">Innovation</a><a href="/tag/inspiration.html">Inspiration</a><a href="/tag/ksc.html">KSC</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p><span style="color: #000080"><strong>The Open Government Initiative was
+excited to invite KSC's <a href="mailto:david.j.miranda@nasa.gov">David Miranda</a> and <a href="mailto:ariel.d.pavlick@nasa.gov">Ariel Pavlick</a> to share
+about how they are increasing the awesome at their center with
+transparency, participation, and collaboration. </strong></span></p>
+<p><em>“Some would say that those struggles are all over, that all the
+horizons have been explored, that all ...</em></p>
+                <a class="readmore" href="/spaceport-innovators-at-ksc.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/nasa-forward-maker-camp-2.html" rel="bookmark"
+                           title="Permalink to NASA Forward Maker Camp">NASA Forward Maker Camp</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-08-13T16:48:00">
+                Sat 13 August 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/weshagh.html">weshagh</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/innovation.html">Innovation</a><a href="/tag/liquid-galaxy.html">Liquid Galaxy</a><a href="/tag/maker-camp.html">maker camp</a><a href="/tag/nasa-forward.html">NASA Forward</a><a href="/tag/participation.html">Participation</a><a href="/tag/remote.html">Remote</a></p>
+</footer><!-- /.post-info -->                <p>NASA Forward Maker Camp has been an effective experiment in new ways
+to engage the workforce in fast, hyper local projects that advance
+NASA’s mission and vision. The event provides a chance to pursue
+projects of value to the NASA mission that might not normally be done
+and also ...</p>
+                <a class="readmore" href="/nasa-forward-maker-camp-2.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/why-opengov-why-now.html" rel="bookmark"
+                           title="Permalink to Why OpenGov? Why Now?">Why OpenGov? Why Now?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-07-26T09:00:00">
+                Tue 26 July 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/agllewel.html">agllewel</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/inspiration.html">Inspiration</a><a href="/tag/opengov.html">Opengov</a><a href="/tag/participation.html">Participation</a></p>
+</footer><!-- /.post-info -->                <p>There is a new compact on the horizon: information produced by and on
+behalf of citizens is the lifeblood of the economy and the nation;
+government has a responsibility to treat that information as a national
+asset. Citizens are connected like never before and have the skill sets
+and passion ...</p>
+                <a class="readmore" href="/why-opengov-why-now.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/voice-of-the-virtual-participant.html" rel="bookmark"
+                           title="Permalink to Voice of the Virtual Participant">Voice of the Virtual Participant</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-04-12T17:51:00">
+                Tue 12 April 2011
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="/author/cgerty.html">cgerty</a>
+        </address>
+<p>In <a href="/category/opengov.html">OpenGov</a>. </p>
+<p>tags: <a href="/tag/participation.html">Participation</a><a href="/tag/remote.html">Remote</a><a href="/tag/virtual.html">Virtual</a></p>
+</footer><!-- /.post-info -->                <p>We’ve all experienced the shift. Meetings confined to the meeting room?
+Not so much anymore. Over the past decade, decision-making boards and
+widely attended conferences, along with the average team meetings, are
+rarely restricted to the people in the physical room. Rather,
+teleconferencing technologies promise to save dwindling travel ...</p>
+                <a class="readmore" href="/voice-of-the-virtual-participant.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
