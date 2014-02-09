@@ -40,6 +40,11 @@ def reserve():
 
 def preview():
     local('pelican -s publishconf.py')
+    
+def ghb():
+    #build()
+    commit = prompt("Do you have commit text")
+    local('git commit -a -m %s' % commit)
 
 def cf_upload():
     rebuild()
