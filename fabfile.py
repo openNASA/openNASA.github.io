@@ -44,8 +44,6 @@ def preview():
     
 def ghb():
     build()
-    local ('git add output')
-    local('git commit -m "Blog Content As Of %s"' % str(datetime.datetime.now()))
     local('ghp-import output')
     local('git push origin gh-pages')
     
