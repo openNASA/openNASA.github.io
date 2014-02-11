@@ -14,6 +14,8 @@ DEFAULT_PAGINATION = False
 
 TYPOGRIFY = True
 
+THEME = "themes/opennasa"
+
 ARTICLE_URL = '{slug}'
 
 # Uncomment following line if you want document-relative URLs when developing
