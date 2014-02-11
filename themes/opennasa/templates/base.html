@@ -41,7 +41,17 @@
 </head>
 
 <body>
-	<h1>Hello, world!</h1>
+	<header role="banner {% if header_image %}banner_image{% endif %}">
+		{% block banner_image %}
+		{% endblock %}
+		<hgroup>
+			<h1>openNASA</h1>
+		</hgroup>
+	</header>
+	
+	{% block content %}
+	{% endblock %}
+	
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery.js"></script>
