@@ -5841,12 +5841,7 @@ a:hover {
 @media (min-width: 768px) {
   .content .content_area {
     float: left;
-    width: 83.33333333333334%;
-  }
-}
-@media (min-width: 768px) {
-  .content .content_area {
-    left: 8.333333333333332%;
+    width: 100%;
   }
 }
 article {
