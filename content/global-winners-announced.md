@@ -1,6 +1,7 @@
 Title: Global Winners Announced
 Date: 2012-05-18 14:23
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: hackathon, judging, Open Data, software development, space apps
 Slug: global-winners-announced

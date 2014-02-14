@@ -1,6 +1,7 @@
 Title: Introducing Gov Webicons
 Date: 2013-06-04 17:52
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Slug: introducing-gov-webicons
 

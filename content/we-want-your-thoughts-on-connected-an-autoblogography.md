@@ -1,6 +1,7 @@
 Title: We want your thoughts on "Connected: An Autoblogography"!
 Date: 2011-08-16 22:17
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: IT Summit, OpenGov
 Tags: #nasait
 Slug: we-want-your-thoughts-on-connected-an-autoblogography

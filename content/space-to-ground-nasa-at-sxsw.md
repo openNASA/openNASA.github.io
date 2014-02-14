@@ -1,6 +1,7 @@
 Title: Space to Ground: NASA at #SXSW
 Date: 2012-03-07 12:41
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: engagement, interactive, panels, sxsw
 Slug: space-to-ground-nasa-at-sxsw

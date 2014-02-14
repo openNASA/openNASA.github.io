@@ -1,6 +1,7 @@
 Title: The Roadmap for Digital Government
 Date: 2012-06-20 14:15
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: digital strategy, Innovation, mobile apps, White House
 Slug: the-roadmap-for-digital-government

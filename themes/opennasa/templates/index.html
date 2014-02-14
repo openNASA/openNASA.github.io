@@ -14,15 +14,7 @@
 		    {% if articles %}
 		        {% for article in (articles_page.object_list if articles_page else articles) %}
 		            <article>
-						<header>
-							<a class="article_info" href="{{ SITEURL }}/{{ article.url }}.html">
-			                <h2>{{ article.title }}</h2>
-							<div class="meta">By {{ article.author }}, {{ article.date|strftime('%d %B %Y') }}</div>
-							</a>
-							<a href="#" class="gravatar">
-								<img src="http://www.gravatar.com/avatar/a1889053473fbce4fed2ba330481ecea?s=25" alt="{{ article.author }}">
-							</a>
-						</header>
+						{% include 'includes/article_header.html' %}
 		            </article>
 		        {% endfor %}
 		    {% endif %}

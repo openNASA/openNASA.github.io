@@ -1,6 +1,7 @@
 Title: Open Government Status Update
 Date: 2011-10-03 15:10
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Obama, Open Government Partnership, Opengov, video
 Slug: open-government-status-update

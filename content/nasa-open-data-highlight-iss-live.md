@@ -1,6 +1,7 @@
 Title: NASA Open Data Highlight: ISS Live!
 Date: 2011-07-27 17:49
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Education, ISS, mobile apps, Open Data
 Slug: nasa-open-data-highlight-iss-live

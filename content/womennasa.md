@@ -1,6 +1,7 @@
 Title: Launch of Women@NASA
 Date: 2011-04-01 05:59
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: womennasa
 

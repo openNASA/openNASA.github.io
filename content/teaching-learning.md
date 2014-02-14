@@ -1,6 +1,7 @@
 Title: Teaching Learning
 Date: 2011-05-24 19:56
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Education, Innovation, Open Innovation, Outreach
 Slug: teaching-learning

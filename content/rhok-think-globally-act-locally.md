@@ -1,6 +1,7 @@
 Title: RHoK: Think Globally, Act Locally
 Date: 2011-06-09 18:26
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Open Data, RHoK
 Slug: rhok-think-globally-act-locally

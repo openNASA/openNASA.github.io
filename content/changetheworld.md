@@ -1,6 +1,7 @@
 Title: Changing the world.  Status: in progress
 Date: 2012-12-01 13:07
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: Open Data, Open Source, Random Hacks of Kindness, RHoK
 Slug: changetheworld

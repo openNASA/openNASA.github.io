@@ -1,6 +1,7 @@
 Title: Time for a #NASAtweetup!
 Date: 2011-10-21 16:06
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: citizen engagement, NASATweetup, Outreach, Social Media
 Slug: time-for-a-nasatweetup

@@ -1,6 +1,7 @@
 Title: Asking YOU anything: What should NASA do next? 
 Date: 2012-12-07 16:18
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Participation, participatory exploration, ron garan, Social Media
 Slug: asking-you-anything-what-should-nasa-do-next

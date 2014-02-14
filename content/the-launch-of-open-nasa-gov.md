@@ -1,6 +1,7 @@
 Title: The launch of open.nasa.gov
 Date: 2011-07-28 23:59
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: the-launch-of-open-nasa-gov
 

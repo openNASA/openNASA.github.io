@@ -1,6 +1,7 @@
 Title: About
 Date: 2011-04-05 03:09
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: about
 
 ![OpenGov][]

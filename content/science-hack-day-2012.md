@@ -1,6 +1,7 @@
 Title: Science Hack Day 2012
 Date: 2012-11-06 17:57
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Slug: science-hack-day-2012
 

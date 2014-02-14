@@ -1,6 +1,7 @@
 Title: 8 Keys to Creating and Building Lasting Enterprises
 Date: 2011-08-04 13:00
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: Leadership
 Slug: 8-keys-to-creating-and-building-lasting-enterprises

@@ -1,6 +1,7 @@
 Title: Waterhackathon
 Date: 2011-09-28 12:44
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: hackathon, water, Waterhackathon, World Bank
 Slug: waterhackathon

@@ -1,6 +1,7 @@
 Title: Space Meetup at SXSW
 Date: 2013-01-28 08:57
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: sxsw
 Slug: space-meetup-at-sxsw

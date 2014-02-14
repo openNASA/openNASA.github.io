@@ -1,6 +1,7 @@
 Title: Space Ipsum
 Date: 2011-11-13 17:49
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: django, lorem ipsum, sciencehackday, spaceipsum, webapp
 Slug: space-ipsum

@@ -1,6 +1,7 @@
 Title: The Open API Universe at NASA
 Date: 2012-09-19 16:24
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: APIs, Data, Digital Government Strategy, Open Source
 Slug: the-open-api-universe-at-nasa

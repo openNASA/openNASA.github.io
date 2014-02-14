@@ -1,6 +1,7 @@
 Title: NASA IT Labs
 Date: 2013-04-30 10:31
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: nasaitlabs
 
 [![01-NASA-IT-Labs-Banner][]][01-NASA-IT-Labs-Banner]

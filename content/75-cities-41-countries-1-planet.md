@@ -1,6 +1,7 @@
 Title: 75 Cities, 41 Countries, 1 Planet
 Date: 2013-03-07 22:19
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: locations, space apps
 Slug: 75-cities-41-countries-1-planet

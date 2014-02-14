@@ -1,6 +1,7 @@
 Title: The power of hackathons in government
 Date: 2012-06-29 12:28
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: collaboration, government, Hackathons, Participation, participatory exploration, RHoK, space apps
 Slug: the-power-of-hackathons-in-government

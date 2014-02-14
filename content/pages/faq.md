@@ -1,6 +1,7 @@
 Title: FAQ
 Date: 2011-08-29 18:10
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: faq
 
 **What is the OpenGov Initiative?**

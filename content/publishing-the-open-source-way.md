@@ -1,6 +1,7 @@
 Title: Publishing the Open Source Way
 Date: 2011-07-28 18:23
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: Open Source, open.NASA, web development
 Slug: publishing-the-open-source-way

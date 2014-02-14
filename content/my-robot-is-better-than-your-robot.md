@@ -1,6 +1,7 @@
 Title: My Robot is Better than Your Robot
 Date: 2011-12-16 12:36
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Education, Outreach, robotics, Science
 Slug: my-robot-is-better-than-your-robot

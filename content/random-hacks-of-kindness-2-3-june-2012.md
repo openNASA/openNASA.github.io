@@ -1,6 +1,7 @@
 Title: Random Hacks of Kindness, 2-3 June 2012
 Date: 2012-05-01 10:26
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: random-hacks-of-kindness-2-3-june-2012
 

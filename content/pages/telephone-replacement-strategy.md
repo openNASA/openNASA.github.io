@@ -1,6 +1,7 @@
 Title: Telephone Replacement Strategy
 Date: 2012-04-13 10:09
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: telephone-replacement-strategy
 
 The National Aeronautics and Space Administration’s (NASA) Johnson Space

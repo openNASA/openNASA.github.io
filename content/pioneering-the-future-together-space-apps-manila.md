@@ -1,6 +1,7 @@
 Title: Pioneering the Future Together: Space Apps Manila
 Date: 2013-02-20 12:20
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: locations, Participation, space apps
 Slug: pioneering-the-future-together-space-apps-manila

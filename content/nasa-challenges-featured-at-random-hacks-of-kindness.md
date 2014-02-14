@@ -1,6 +1,7 @@
 Title: NASA Challenges featured at Random Hacks of Kindness
 Date: 2012-05-29 14:31
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: challenges, RHoK, space apps
 Slug: nasa-challenges-featured-at-random-hacks-of-kindness

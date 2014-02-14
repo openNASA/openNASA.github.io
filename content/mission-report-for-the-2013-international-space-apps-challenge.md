@@ -1,6 +1,7 @@
 Title: Mission Report for the 2013 International Space Apps Challenge
 Date: 2013-06-05 12:28
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Slug: mission-report-for-the-2013-international-space-apps-challenge
 

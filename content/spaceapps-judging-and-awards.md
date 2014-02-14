@@ -1,6 +1,7 @@
 Title: #SpaceApps Judging and Awards
 Date: 2013-04-19 15:20
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: spaceapps-judging-and-awards
 

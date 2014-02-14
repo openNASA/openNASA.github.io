@@ -1,6 +1,7 @@
 Title: #FlyNASA: Where the Sky is NOT the Limit
 Date: 2012-01-06 17:52
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: astronauts, citizen engagement, FlyNASA, Participation
 Slug: flynasa-where-the-sky-is-not-the-limit

@@ -1,6 +1,7 @@
 Title: Social Media, Citizen Science, and the Future of Space Exploration
 Date: 2011-12-09 15:27
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: social-media-citizen-science-and-the-future-of-space-exploration
 

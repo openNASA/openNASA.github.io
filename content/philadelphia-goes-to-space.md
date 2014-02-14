@@ -1,6 +1,7 @@
 Title: Philadelphia goes to space
 Date: 2013-01-22 13:26
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: mainstage, Philadelphia, space apps
 Slug: philadelphia-goes-to-space

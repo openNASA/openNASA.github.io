@@ -1,6 +1,7 @@
 Title: Introducing the International Space Apps Challenge
 Date: 2012-03-09 13:05
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: introducing-the-international-space-apps-challenge
 

@@ -1,6 +1,7 @@
 Title: Time Lapse View from Space
 Date: 2011-11-13 04:14
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: data visualization, imagery
 Slug: time-lapse-view-from-space

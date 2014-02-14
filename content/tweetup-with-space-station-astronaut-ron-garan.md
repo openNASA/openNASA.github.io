@@ -1,6 +1,7 @@
 Title: Tweetup With Space Station Astronaut Ron Garan
 Date: 2012-01-18 17:23
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: tweetup-with-space-station-astronaut-ron-garan
 

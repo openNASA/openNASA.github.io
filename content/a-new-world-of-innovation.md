@@ -1,6 +1,7 @@
 Title: A New World of Innovation
 Date: 2012-02-29 23:26
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: collaboration, Education, Innovation, Participation, space apps, Syracuse
 Slug: a-new-world-of-innovation

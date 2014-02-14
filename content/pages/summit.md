@@ -1,6 +1,7 @@
 Title: Open Source Summit
 Date: 2012-06-01 09:33
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: summit
 
 [![Open Source Summit][]][]

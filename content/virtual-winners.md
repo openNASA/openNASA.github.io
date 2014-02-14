@@ -1,6 +1,7 @@
 Title: Virtual Winners
 Date: 2013-04-25 14:40
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: virtual-winners
 

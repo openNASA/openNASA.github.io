@@ -1,6 +1,7 @@
 Title: Science, art, and human spaceflight
 Date: 2012-05-08 20:05
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Art, citizen engagement, Creativity, humans in space, Outreach, theater
 Slug: science-art-and-human-spaceflight

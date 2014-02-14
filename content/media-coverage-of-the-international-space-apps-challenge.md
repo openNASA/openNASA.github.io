@@ -1,6 +1,7 @@
 Title: Media Coverage of the International Space Apps Challenge
 Date: 2012-04-17 14:58
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: media-coverage-of-the-international-space-apps-challenge
 

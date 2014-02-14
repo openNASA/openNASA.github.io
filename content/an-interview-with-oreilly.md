@@ -1,6 +1,7 @@
 Title: An Interview with O'Reilly Media 
 Date: 2013-02-01 14:03
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: citizen science, civic hacking, data visualization, Earth Day, Gov 2.0, NASA, Open Data, open hardware, open science
 Slug: an-interview-with-oreilly

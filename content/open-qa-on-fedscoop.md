@@ -1,6 +1,7 @@
 Title: Open Q&A at FedScoop’s Citizen Engagement & OpenGov Summit
 Date: 2011-05-10 20:14
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: open-qa-on-fedscoop
 

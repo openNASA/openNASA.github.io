@@ -1,6 +1,7 @@
 Title: RHoK-ing it out with NASA Data
 Date: 2011-12-02 02:54
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: collaboration, hacking for humanity, RHoK
 Slug: rhok-ing-it-out-with-nasa-data

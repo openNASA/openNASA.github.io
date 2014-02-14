@@ -1,6 +1,7 @@
 Title: The space station really is for every generation
 Date: 2011-12-10 01:19
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: collaboration, Inspiration, ISS, Outreach, sustainability
 Slug: the-space-station-really-is-for-every-generation

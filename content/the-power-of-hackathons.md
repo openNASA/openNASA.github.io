@@ -1,6 +1,7 @@
 Title: The Power of Hackathons
 Date: 2013-09-30 21:17
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: the-power-of-hackathons
 

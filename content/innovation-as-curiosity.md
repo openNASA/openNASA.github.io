@@ -1,6 +1,7 @@
 Title: Innovation as Curiosity
 Date: 2012-09-17 12:26
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Innovation, Open Innovation
 Slug: innovation-as-curiosity

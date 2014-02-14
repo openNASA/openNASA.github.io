@@ -1,6 +1,7 @@
 Title: the sp.ace
 Date: 2011-04-20 19:17
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: space
 
 <div>

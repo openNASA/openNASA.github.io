@@ -1,6 +1,7 @@
 Title: Celebrating Planet Earth
 Date: 2012-04-20 21:33
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Earth Day, EPA, fragile oasis, orbital perspective, space apps, sustainability
 Slug: celebrating-planet-earth

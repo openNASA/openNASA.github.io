@@ -1,6 +1,7 @@
 Title: MARS FORUM
 Date: 2012-06-13 15:51
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: exploration, Ideascale, Mars, Participation
 Slug: mars-forum

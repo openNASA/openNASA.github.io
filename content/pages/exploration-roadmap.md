@@ -1,6 +1,7 @@
 Title: Exploration Roadmap
 Date: 2011-11-01 14:23
 Author: Sean Herron
+email: seanherron@gmail.com
 Slug: exploration-roadmap
 
 <style><!--<br />

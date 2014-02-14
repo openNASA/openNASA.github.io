@@ -1,6 +1,7 @@
 Title: Coding for Better Government
 Date: 2012-03-14 21:53
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: citizen engagement, Code for America, hackathon, Jennifer Pahlka, Opengov, space apps, TED
 Slug: coding-for-better-government

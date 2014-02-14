@@ -1,6 +1,7 @@
 Title: Farewell
 Date: 2013-06-14 11:21
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Slug: farewell
 

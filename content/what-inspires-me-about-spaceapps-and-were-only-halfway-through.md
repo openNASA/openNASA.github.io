@@ -1,6 +1,7 @@
 Title: What inspires me about #SpaceApps.. and we're only halfway through. 
 Date: 2013-04-20 06:41
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Slug: what-inspires-me-about-spaceapps-and-were-only-halfway-through
 

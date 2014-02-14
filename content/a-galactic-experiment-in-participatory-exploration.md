@@ -1,6 +1,7 @@
 Title: A Galactic Experiment in Participatory Exploration
 Date: 2013-04-16 00:16
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: a-galactic-experiment-in-participatory-exploration
 

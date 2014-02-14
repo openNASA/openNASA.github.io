@@ -1,6 +1,7 @@
 Title: Spaceport Innovators at KSC
 Date: 2011-09-06 12:03
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: community, Innovation, Inspiration, KSC, Participation
 Slug: spaceport-innovators-at-ksc

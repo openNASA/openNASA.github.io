@@ -1,6 +1,7 @@
 Title: Hacking... for non-hackers.
 Date: 2011-12-05 12:54
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: collaboration, hacking for humanity, RHoK
 Slug: hacking-for-non-hackers

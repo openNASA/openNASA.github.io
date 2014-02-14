@@ -1,6 +1,7 @@
 Title: Unity Node: Ready to Launch
 Date: 2012-01-27 10:43
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: collaboration, fragile oasis, Open Source, Social Innovation, Unity Node
 Slug: unity-node-ready-to-launch

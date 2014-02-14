@@ -1,6 +1,7 @@
 Title: NASA announces the 50 locations for the 2013 International Space Apps Challenge
 Date: 2013-01-28 17:32
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: press release, space apps
 Slug: nasa-announces-the-50-locations-for-the-2013-international-space-apps-challenge
