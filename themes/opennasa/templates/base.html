@@ -5,9 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Merriweather:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
 	
 	<!-- Additional critical CSS -->
 	<link href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('native') }}.css" rel="stylesheet">
@@ -16,10 +16,6 @@
     {% endif %}
     {% if TYPOGRIFY %}
         <link href="{{ SITEURL }}/theme/css/typogrify.css" rel="stylesheet">
-    {% endif %}
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
-    {% if CUSTOM_CSS %}
-	<link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
     {% endif %}
 	
 	<!-- RSS Feeds -->
@@ -41,12 +37,13 @@
 </head>
 
 <body>
-	<header role="banner {% if header_image %}banner_image{% endif %}">
-		{% block banner_image %}
-		{% endblock %}
-		<hgroup>
-			<h1>openNASA</h1>
-		</hgroup>
+	<header role="banner" class="banner{% if self.banner_image() %} banner_image{% endif %}"{% if self.banner_image() %} style="background-image:url('{% block banner_image %}{% endblock %}')"{% endif %}>
+		<div class="container">
+			<div class="content">
+				<hgroup class="content_area">
+					<h1><a href="/">open<span class="nasa">NASA</span></a></h1>
+				</hgroup>
+			</div>
 	</header>
 	
 	{% block content %}
