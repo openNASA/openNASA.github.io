@@ -1,6 +1,7 @@
 Title: A Lesson in Social Media Innovation
 Date: 2011-10-26 01:19
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: a-lesson-in-social-media-innovation
 

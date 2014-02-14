@@ -1,6 +1,7 @@
 Title: Where in the World is Space Apps? 
 Date: 2013-01-04 12:34
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: locations, space apps
 Slug: where-in-the-world-is-space-apps

@@ -1,6 +1,7 @@
 Title: Open Source Summit v3.0: Communties
 Date: 2013-06-18 14:07
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: open-source-summit-v3-0-communties
 

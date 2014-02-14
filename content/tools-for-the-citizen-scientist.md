@@ -1,6 +1,7 @@
 Title: Tools for the Citizen Scientist
 Date: 2011-04-15 21:20
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Infographic, Open Data, Opengov
 Slug: tools-for-the-citizen-scientist

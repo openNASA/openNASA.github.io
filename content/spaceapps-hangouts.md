@@ -1,6 +1,7 @@
 Title: #SpaceApps Hangouts
 Date: 2013-04-18 04:33
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Slug: spaceapps-hangouts
 

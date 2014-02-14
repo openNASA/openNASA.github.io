@@ -1,6 +1,7 @@
 Title: Unplugging from an overly connected world
 Date: 2011-08-18 23:51
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: connected, information age, interdependence
 Slug: unplugging-from-a-connected-world

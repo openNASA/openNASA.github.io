@@ -1,6 +1,7 @@
 Title: Beyond 140 Characters
 Date: 2011-10-26 00:46
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: beyond-140-characters
 

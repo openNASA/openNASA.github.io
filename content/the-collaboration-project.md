@@ -1,6 +1,7 @@
 Title: The Collaboration Project
 Date: 2011-12-01 22:04
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: collaboration, fragile oasis, hackathon, RHoK, Social Innovation
 Slug: the-collaboration-project

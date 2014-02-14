@@ -1,6 +1,7 @@
 Title: Mission Aquarius
 Date: 2012-07-12 11:18
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: mission-aquarius
 

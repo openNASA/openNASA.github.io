@@ -1,6 +1,7 @@
 Title: Credits
 Date: 2011-07-27 19:05
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: credits
 
 ![Science Hack Day][]

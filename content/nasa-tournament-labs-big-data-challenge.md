@@ -1,6 +1,7 @@
 Title: NASA Tournament Lab's Big Data Challenge
 Date: 2012-10-03 15:06
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: big data, NTL, Open Innovation
 Slug: nasa-tournament-labs-big-data-challenge

@@ -1,6 +1,7 @@
 Title: More than 140 Characters...
 Date: 2012-01-30 15:01
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: citizen engagement, participatory exploration, Social Media
 Slug: more-than-140-characters

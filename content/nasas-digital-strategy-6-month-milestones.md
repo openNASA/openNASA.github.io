@@ -1,6 +1,7 @@
 Title: NASA's Digital Strategy: 6 Month Milestones
 Date: 2012-11-29 16:16
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: IT Summit, OpenGov
 Tags: digital strategy, mobile, responsive design
 Slug: nasas-digital-strategy-6-month-milestones

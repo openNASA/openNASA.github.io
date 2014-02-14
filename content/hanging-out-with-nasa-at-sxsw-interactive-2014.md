@@ -1,6 +1,7 @@
 Title: Hanging Out with NASA at SXSW Interactive 2014
 Date: 2013-08-19 13:28
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: hanging-out-with-nasa-at-sxsw-interactive-2014
 

@@ -1,6 +1,7 @@
 Title: Sputnik
 Date: 2013-11-04 10:32
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: sputnik
 
 ![sputnik\_small][]

@@ -1,6 +1,7 @@
 Title: Exploring Mars from Home
 Date: 2010-07-14 01:52
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: Innovation, Mars, Nebula
 Slug: exploring-mars-from-home

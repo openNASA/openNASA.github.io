@@ -1,6 +1,7 @@
 Title: Collective Genius for a Better World
 Date: 2011-11-13 21:30
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: energy, KSC, LAUNCH, Nike, Social Innovation, State, sustainability, technology, USAID
 Slug: launch-collective-genius-for-a-better-world

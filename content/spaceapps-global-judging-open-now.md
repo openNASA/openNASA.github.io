@@ -1,6 +1,7 @@
 Title: #SpaceApps Global Judging Open Now
 Date: 2012-05-09 13:36
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: hackathon, judging, Open Data, software development, space apps
 Slug: spaceapps-global-judging-open-now

@@ -1,6 +1,7 @@
 Title: Commenting Guidelines
 Date: 2011-08-29 16:18
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: commenting-guidelines
 
 We welcome your comments if you are 13 or older, and hope that our

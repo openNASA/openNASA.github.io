@@ -1,6 +1,7 @@
 Title: NASA, State Department and Veteran Affairs Innovation Initiative Host Open Source Summit
 Date: 2012-06-06 10:54
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: nasa-state-department-and-veteran-affairs-innovation-initiative-host-open-source-summit
 

@@ -1,6 +1,7 @@
 Title: Science Hack Day, San Francisco
 Date: 2011-11-13 01:02
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: engineering, Open Data, Open Source, Science, Science Hack Day, software development, technology
 Slug: science-hack-day-sf

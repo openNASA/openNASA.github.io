@@ -1,6 +1,7 @@
 Title: NASA Asteroid Initiative
 Date: 2013-06-20 15:41
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Slug: nasa-asteroid-initiative
 

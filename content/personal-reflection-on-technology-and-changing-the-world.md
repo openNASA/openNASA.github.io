@@ -1,6 +1,7 @@
 Title: Personal reflection on technology and changing the world
 Date: 2011-04-06 16:07
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Social Innovation
 Slug: personal-reflection-on-technology-and-changing-the-world

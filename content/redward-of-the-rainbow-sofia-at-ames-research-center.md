@@ -1,6 +1,7 @@
 Title: "Redward of the rainbow"-- SOFIA at Ames Research Center
 Date: 2011-10-14 21:04
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Ames Research Center, international, NASATweetup, Open Data, Science, SOFIA
 Slug: redward-of-the-rainbow-sofia-at-ames-research-center

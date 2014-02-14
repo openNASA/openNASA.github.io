@@ -1,6 +1,7 @@
 Title: Bringing Home the Magic of Space
 Date: 2012-05-23 10:22
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: CASIS, Innovation, Inspiration, ISS
 Slug: bringing-home-the-magic-of-space

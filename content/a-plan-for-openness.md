@@ -1,6 +1,7 @@
 Title: A Plan for Openness
 Date: 2012-04-09 08:38
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: Open Data, Open Source, Technology Accelerators
 Slug: a-plan-for-openness

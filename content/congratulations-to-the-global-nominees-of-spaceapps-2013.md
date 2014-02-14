@@ -1,6 +1,7 @@
 Title: Congratulations to the global nominees of #SpaceApps 2013
 Date: 2013-04-21 23:16
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Slug: congratulations-to-the-global-nominees-of-spaceapps-2013
 

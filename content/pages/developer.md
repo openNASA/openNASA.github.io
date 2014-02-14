@@ -1,6 +1,7 @@
 Title: Developer
 Date: 2013-05-19 14:58
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: developer
 
 ![developer2][]

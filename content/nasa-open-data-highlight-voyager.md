@@ -1,6 +1,7 @@
 Title: NASA Open Data Highlight: Voyager
 Date: 2011-06-15 18:46
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Education, Open Data, Science, Voyager
 Slug: nasa-open-data-highlight-voyager

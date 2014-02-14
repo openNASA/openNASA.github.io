@@ -1,6 +1,7 @@
 Title: Space Bread
 Date: 2012-05-21 12:48
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: space-bread
 

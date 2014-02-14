@@ -1,6 +1,7 @@
 Title: Open Source at NASA
 Date: 2011-04-05 03:17
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: open-source-at-nasa
 

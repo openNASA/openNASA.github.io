@@ -1,6 +1,7 @@
 Title: Citizen Engagement
 Date: 2011-08-26 11:52
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: citizen engagement
 Slug: citizen-engagement

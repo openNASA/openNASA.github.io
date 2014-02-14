@@ -1,6 +1,7 @@
 Title: Bring Curiosity to your living room with Spacecraft 3D
 Date: 2012-07-12 16:02
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: augmented reality, citizen engagement, Curiosity, Education, exploration, grail, Innovation, Mars, mobile apps, MSL, Outreach, Science, Social Media, technology
 Slug: bring-curiosity-to-your-living-room-with-spacecraft-3d

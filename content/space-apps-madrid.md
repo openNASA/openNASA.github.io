@@ -1,6 +1,7 @@
 Title: Space Apps Madrid
 Date: 2013-02-22 16:14
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: locations, space apps, Spain
 Slug: space-apps-madrid

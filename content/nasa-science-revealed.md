@@ -1,6 +1,7 @@
 Title: NASA Science: Revealed.
 Date: 2011-07-28 16:13
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: Data, iPad, Science, Visualization
 Slug: nasa-science-revealed

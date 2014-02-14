@@ -1,6 +1,7 @@
 Title: Behind the Site: spaceappschallenge.org
 Date: 2012-04-06 01:36
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: css3, django, html5, space apps challenge, spaceapps, technology, web development, wordpress
 Slug: behind-the-site-spaceappschallenge-org

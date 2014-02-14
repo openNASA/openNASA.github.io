@@ -1,6 +1,7 @@
 Title: Curiosity is coming!
 Date: 2012-06-26 12:55
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: Curiosity, data visualization, Mars, MSL
 Slug: curiosity-is-coming

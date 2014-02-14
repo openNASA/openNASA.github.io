@@ -1,6 +1,7 @@
 Title: dev/day
 Date: 2013-06-20 13:59
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Slug: devday
 
  

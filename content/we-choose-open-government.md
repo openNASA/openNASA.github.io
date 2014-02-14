@@ -1,6 +1,7 @@
 Title: We Choose Open Government
 Date: 2012-02-21 23:17
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Tags: Open Gov, Open Source, Opne Data, Rice University, We Choose the Moon
 Slug: we-choose-open-government

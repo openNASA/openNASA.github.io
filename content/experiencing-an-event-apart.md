@@ -1,6 +1,7 @@
 Title: Experiencing An Event Apart
 Date: 2011-10-26 15:31
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Tags: #aea, an event apart, api, data.nasa.gov, responsive design, semantic web, web design
 Slug: experiencing-an-event-apart

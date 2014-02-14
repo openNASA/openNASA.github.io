@@ -1,6 +1,7 @@
 Title: Explore #SpaceApps
 Date: 2013-04-20 10:31
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Slug: explore-spaceapps
 

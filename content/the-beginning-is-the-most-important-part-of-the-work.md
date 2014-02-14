@@ -1,6 +1,7 @@
 Title: The Beginning is the Most Important Part of the Work
 Date: 2013-01-24 16:50
 Author: Sean Herron
+email: seanherron@gmail.com
 Category: OpenGov
 Slug: the-beginning-is-the-most-important-part-of-the-work
 

@@ -1,6 +1,7 @@
 Title: Participate in the NASA Advisory Council Public Meeting
 Date: 2011-08-04 10:29
 Author: Nick Skytland
+email: nicholas.g.skytland@gmail.com
 Category: OpenGov
 Slug: participate-in-the-nasa-advisory-council-public-meeting
 

@@ -1,6 +1,7 @@
 Title: Fifty Challenges! Where Do I Start?
 Date: 2013-04-08 17:03
 Author: Ali Llewellyn
+email: adllewellyn@gmail.com
 Category: OpenGov
 Tags: challenges, space apps
 Slug: fifty-challenges-where-do-i-start
