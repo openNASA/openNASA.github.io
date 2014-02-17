@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block banner_image %}/theme/images/earthrise.jpg{% endblock banner_image %}
+
+{% block content %}
+<div class="container homepage">
+	<div class="content">
+		<div class="content_area">
+			<div class="intro">
+				<p>In 2007, a small group of people began an intentional, collaborative experiment in open, transparent, and direct communication about your space program. Our goal was to enable your direct participation in exploring and contributing to NASA’s mission.</p>
+			
+				<p>Many of us have since begun new adventures. This site will remain as an archive of the accomplishments of the openNASA experiment.</p>
+			</div>
+			
+	            <article>
+					{% include 'includes/article_header.html' %}
+					<div class="article_content">
+						{{ article.content }}
+					</div>
+	            </article>
+
+		    {% include 'includes/pagination.html' %}
+		</div>
+	</div>
+</div>
+{% endblock content %}
