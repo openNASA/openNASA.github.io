@@ -1,9 +1,0 @@
-<header>
-	<a class="article_info" href="{{ SITEURL }}/{{ article.url }}.html">
-    <h2>{{ article.title }}</h2>
-	<div class="meta">By {{ article.author }}, {{ article.date|strftime('%d %B %Y') }}</div>
-	</a>
-	<a href="#" class="gravatar">
-		<img src="{% if article.author_gravatar %}{{ article.author_gravatar }}{% else %}http://www.gravatar.com/avatar/00000000000000000000000000000000{% endif %}?s=50&d=mm" alt="{{ article.author }}">
-	</a>
-</header>
