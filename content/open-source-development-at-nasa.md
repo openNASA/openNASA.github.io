@@ -1,6 +1,7 @@
 Title: Open Source Development at NASA
 Date: 2011-09-08 19:52
 Author: William Eshagh
+email: william@eshagh.com
 Category: OpenGov
 Tags: code, Gov 2.0, Inspiration, Nebula, Open Source, Participation
 Slug: open-source-development-at-nasa

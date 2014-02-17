@@ -1,6 +1,7 @@
 Title: NASA on GitHub
 Date: 2011-12-23 13:26
 Author: William Eshagh
+email: william@eshagh.com
 Category: OpenGov
 Tags: code, Open Source, Participation
 Slug: nasa-on-github

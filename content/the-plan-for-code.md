@@ -1,6 +1,7 @@
 Title: The Plan for Code
 Date: 2012-01-04 00:28
 Author: William Eshagh
+email: william@eshagh.com
 Category: OpenGov
 Tags: citizen engagement, code, collaboration, engineering, Inspiration, Open Source
 Slug: the-plan-for-code
