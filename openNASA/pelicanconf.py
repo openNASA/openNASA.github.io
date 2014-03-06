@@ -24,6 +24,7 @@ ARTICLE_URL = '{slug}'
 READERS = {'html': None}
 
 PATH = 'content'
+STATIC_PATHS = ['extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Uncomment following line if you want document-relative URLs when developing
