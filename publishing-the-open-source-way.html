@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>openNASA</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Merriweather:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+	
+	<!-- Additional critical CSS -->
+	<link href="/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+	
+	<!-- RSS Feeds -->
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="openNASA ATOM Feed"/>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header role="banner" class="banner banner_image" style="background-image:url('/theme/images/earthrise.jpg')">
+		<div class="container">
+			<div class="content">
+				<hgroup class="content_area">
+					<h1><a href="/">open<span class="nasa">NASA</span></a></h1>
+				</hgroup>
+			</div>
+	</header>
+	
+<div class="container homepage">
+	<div class="content">
+		<div class="content_area">
+			<div class="intro">
+				<p>In 2007, a small group of people began an intentional, collaborative experiment in open, transparent, and direct communication about your space program. Our goal was to enable your direct participation in exploring and contributing to NASA’s mission.</p>
+			
+				<p>Many of us have since begun new adventures. This site will remain as an archive of the accomplishments of the openNASA experiment.</p>
+			</div>
+			
+	            <article>
+<header>
+	<a class="article_info" href="/publishing-the-open-source-way.html">
+    <h2>Publishing the Open Source&nbsp;Way</h2>
+	<div class="meta">By Sean Herron, 28 July 2011</div>
+	</a>
+	<a href="#" class="gravatar">
+		<img src="http://www.gravatar.com/avatar/00000000000000000000000000000000?s=50&d=mm" alt="Sean Herron">
+	</a>
+</header>					<div class="article_content">
+						<p>Developing open.nasa.gov was, to say the least, an interesting process.
+Born out of an effort by <a href="http://open.nasa.gov/blog/author/skytland/" title="Nick Skytland">Nick Skytland</a> over five years ago, we first
+began drafting some ideas on how the site will look, feel, and function
+last fall. The preliminary designs we created were the designs we were
+working with until roughly 48 hours ago (less than two days before the
+launch of the site). For the most part, the site was very “traditional
+<span class="caps">NASA</span>” - starscape background, bold red and blue colors scheme, and a ton
+of functionality that wasn’t really necessary but that we thought would
+be nice to have. While sitting at <a href="https://twitter.com/#!/search/%23oscon"><span class="caps">OSCON</span> 201</a>1, however, we realized
+something. If we really, really wanted open.<span class="caps">NASA</span> to be a new, fresh look
+on what’s happening at <span class="caps">NASA</span>, we needed to so something bold. So, we
+deleted all of our work and started from scratch. That’s right - this
+entire site was created in just a few (crazy, late-night) hours. Doing
+all this work in such a short time span, however, wouldn’t have been
+possible without a little bit of help. I’m talking, of course, about
+open&nbsp;source.</p>
+<p>Open Source is big at <span class="caps">NASA</span>. It’s one of the <a href="http://www.nasa.gov/open/plan/open-source-development.html">flagship initiatives</a> in
+our <a href="http://www.nasa.gov/open">Open Government plan</a>. Last spring, we hosted our first ever
+<a href="http://www.nasa.gov/open/plan/open-source-development.html">Open Source Summit</a>. It drew 700+ attendees to
+discuss the issues and solutions about developing open source
+applications at the agency. Our most popular open source application,
+<a href="http://worldwind.arc.nasa.gov">World Wind</a>, has had millions of downloads. open.<span class="caps">NASA</span> is no exception
+- it’s built entirely on open source and Software as a Service
+technologies, meaning you can take everything you see here today and do
+it on your own. Here’s&nbsp;how:</p>
+<p>Server Platform<br />
+<strong><span class="caps">LAMP</span><br />
+</strong>open.<span class="caps">NASA</span> is hosted on a <a href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)"><span class="caps">LAMP</span> stack</a> (<a href="http://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="http://httpd.apache.org/">Apache</a>,
+<a href="http://www.mysql.com/">MySQL</a>, <a href="http://www.php.net/"><span class="caps">PHP</span></a>). All of these are open source applications that are
+near-universal. If you’ve built a website before, it’s most likely been
+on <span class="caps">LAMP</span>.</p>
+<p><strong>Wordpress</strong><br />
+The core of open.<span class="caps">NASA</span> is <a href="http://www.wordpress.org">Wordpress 3.2.1</a>, an open source content
+management system approved for use by both <span class="caps">NASA</span> and the <a href="http://www.apps.gov">General
+Services Administration</a>. We made no tweaks to the Wordpress core for
+the site - it grabbed from the <a href="http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion"><span class="caps">SVN</span> repository</a> and set up out of the&nbsp;box.</p>
+<p><strong>Theme</strong><br />
+The site is running a modified version of <a href="http://www.landaureece.com/">Landau Reece’</a>s free
+<a href="https://github.com/landaureece/Protean/blame/master/archive.php">Protean theme</a> for Wordpress. We made a few changes to the theme to
+create a unique look and feel to the site. We really like the design due
+to how clean and simple it presents the content. Plus, each post allows
+for customization by the author to give everyone a bit of&nbsp;personality.</p>
+<p><strong>Disqus</strong><br />
+Our comments are driven by <a href="http://disqus.com/">Disqus</a>, a <span class="caps">GSA</span> approved commenting system
+that connects conversations happening across the&nbsp;web.</p>
+<p><strong>UserVoice</strong><br />
+We want to hear from you! We’ve opened a <a href="http://nasa.uservoice.com">UserVoice account</a> to get
+your feedback on our site, our projects, and hear your ideas for new
+ways <span class="caps">NASA</span> can be more participatory, collaborative, and transparent with
+the public. Be sure to also let us know via UserVoice if you see any
+errors or bugs on the site. None of us are web developers by day, and we
+definitely want to know if there’s something that need to be&nbsp;fixed.</p>
+<p>We sincerely hope you enjoy open.<span class="caps">NASA</span>. Feel free to use anything you see
+on this site - we want you to benefit from the wonders of open source,
+too! open.<span class="caps">NASA</span> is a constantly evolving platform. Our goal is to make
+this site a way for you to learn how we’re working every day to make
+<span class="caps">NASA</span> more accessible to the world. Your feedback and ideas are critical
+in helping us do our jobs better. This is your space agency, and we hope
+you are as excited as we are for the future. Let’s do great things&nbsp;together.</p>
+					</div>
+	            </article>
+
+		</div>
+	</div>
+</div>
+	
+<footer class="contentInfo" role="contentInfo">
+	<div class="container">
+		<div class="content">
+			<div class="content_area">
+				<p>openNASA - an intentional, collaborative experiment in open, transparent, and direct communication about your space program. This website is maintained by <a href="https://github.com/openNASA/openNASA.github.io/graphs/contributors">former members</a> of the openNASA team but is not an official US Government site.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	
+</body>
+</html>

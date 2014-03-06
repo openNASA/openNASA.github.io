@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>openNASA</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Merriweather:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+	
+	<!-- Additional critical CSS -->
+	<link href="/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+	
+	<!-- RSS Feeds -->
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="openNASA ATOM Feed"/>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header role="banner" class="banner banner_image" style="background-image:url('/theme/images/earthrise.jpg')">
+		<div class="container">
+			<div class="content">
+				<hgroup class="content_area">
+					<h1><a href="/">open<span class="nasa">NASA</span></a></h1>
+				</hgroup>
+			</div>
+	</header>
+	
+<div class="container homepage">
+	<div class="content">
+		<div class="content_area">
+			<div class="intro">
+				<p>In 2007, a small group of people began an intentional, collaborative experiment in open, transparent, and direct communication about your space program. Our goal was to enable your direct participation in exploring and contributing to NASA’s mission.</p>
+			
+				<p>Many of us have since begun new adventures. This site will remain as an archive of the accomplishments of the openNASA experiment.</p>
+			</div>
+			
+	            <article>
+<header>
+	<a class="article_info" href="/a-million-iss-images.html">
+    <h2>A Million <span class="caps">ISS</span>&nbsp;Images</h2>
+	<div class="meta">By Nick Bergey, 02 April 2013</div>
+	</a>
+	<a href="#" class="gravatar">
+		<img src="http://www.gravatar.com/avatar/00000000000000000000000000000000?s=50&d=mm" alt="Nick Bergey">
+	</a>
+</header>					<div class="article_content">
+						<p><em>We&#8217;ve always been a fan of <a href="http://mechanicalintegrator.com/2011/iss-notify/"><span class="caps">ISS</span> Notify</a>&#8230; but when the open.<span class="caps">NASA</span>
+team saw the <a href="http://natronics.github.com/ISS-photo-locations/">latest project</a> from <a href="https://twitter.com/natronics">Nate Bergey</a>, we wanted to get
+him to share it directly with you. This project exemplifies why we share
+our <a href="http://data.nasa.gov/">open data</a> with the public as well as the kind of inspiration
+we&#8217;re anticipating at the upcoming <a href="http://spaceappschallenge.org/">Space Apps Challenge</a>. Hopefully
+this will be the first in a long series of posts by Nate and other
+innovators who are using space data to create great&nbsp;things. </em></p>
+<p>I’ve always been fascinated with space. I’ve done plenty of <a href="http://www.flickr.com/photos/natronics/5310760993/">looking up
+at the skies</a> throughout my life, wondering what I would see if I were
+up there looking back down&nbsp;below.</p>
+<p>I use <span class="caps">NASA</span> data every day, even though I don’t work for <span class="caps">NASA</span>.  They have
+many detailed and rich datasets available for reading/viewing by the
+general public. The problem though is that they are often published in
+archaic formats buried under hard to use interfaces. But with a little
+ingenuity, anyone can get their hands on amazing data about the universe
+we live&nbsp;in.</p>
+<p>For instance, I love the photographs that are being downloaded from the
+International Space Station’s cameras. Each one inspires me to dream of
+floating high above our blue planet. Sometimes, I wonder, what do the
+astronauts mostly take pictures of? In order to find out, I had to get
+some&nbsp;data.</p>
+<p>The Image Science <span class="amp">&amp;</span> Analysis Laboratory, at Johnson Space Center in
+Houston, Texas, maintains a [giant database of all the photographs
+astronauts have ever taken in space][].  Luckily, they also have a
+<a href="http://eol.jsc.nasa.gov/sseop/mrf.htm">database search page</a> that allows you to ask for information about
+photos from particular missions, and features all kinds of&nbsp;metadata.</p>
+<p>It’s possible to <a href="http://en.wikipedia.org/wiki/Web_scraping">screen scrape</a> the search result pages, using
+popular programing languages like python and tools like <a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful
+Soup</a>, creating your personal mini database of the data you care
+about. In my case, it was the approximate latitude and longitude of the
+photos taken from the <span class="caps">ISS</span>, or at the very least, the position of the
+station when the photo was&nbsp;taken.</p>
+<p>So, I wrote some python scripts to do this for me a few pages at a time,
+and I ended up with the location of 1,129,177 photos!<strong> </strong></p>
+<h1 dir="ltr">Visualization</h1>
+<p>The next step was to put the data on a map. To do this, I decided to
+draw each photo as a single pixel on a blank image. This is actually
+really easy in python using&nbsp;cairo.</p>
+<p>The result is a giant map of Earth, based only on images from the <span class="caps">ISS</span>!</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss.preview.png"><img alt="All ISS" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss.preview.png" /></a></p>
+<p>Most of the photos are taken of land masses. Coastlines, islands and
+cities seem to be popular targets. So much, that it’s possible to
+identify outline of continents. This makes sense, photos of clouds over
+an otherwise blank ocean get old after a while. I’m sure every astronaut
+has taken at least one photograph of the town they grew up&nbsp;in.</p>
+<p>Now, let’s divide up the dots by mission. Is there any pattern? Here I
+draw each mission in a different&nbsp;color:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions.preview.png"><img alt="All ISS Missions" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions.preview.png" /></a></p>
+<p>The map is dominated by purple, light blue, and green with some yellow.
+Also notice that the purple dots make almost uninterrupted orbit lines
+while most of the other dots seem to fill in randomly. This is because
+during Expedition 30/31 <a href="http://vimeo.com/61083440">Don Pettit took dozens of amazing time lapse
+sequences</a> consisting of hundreds of images taken continuously as the
+<span class="caps">ISS</span> orbited. In fact he’s single-handedly responsible for almost half
+the images taken on&nbsp;orbit!</p>
+<p>One more thing we can do is add a map underneath to see exactly how the
+photos line&nbsp;up:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions_map.preview.png"><img alt="All ISS Missions by Map" src="http://open.nasa.gov/wp-content/uploads/2013/04/all_iss_missions_map.preview.png" /></a></p>
+<p>You can see that the <span class="caps">ISS</span> stays between about 50° and -50° latitude as it
+orbits the Earth The <a href="http://en.wikipedia.org/wiki/Orbital_inclination">inclination</a> of the orbit of the station is in
+fact&nbsp;51.6°.</p>
+<p>Since it’s hard to see the overlapped colors in the above image here is
+a collection maps with the photos from each mission mapped&nbsp;separately:</p>
+<p><a href="http://open.nasa.gov/wp-content/uploads/2013/04/small_mult.preview.png"><img alt="Multiple Maps" src="http://open.nasa.gov/wp-content/uploads/2013/04/small_mult.preview.png" /></a></p>
+<p>This is just some of the data that <span class="caps">NASA</span> has to offer. If you’re
+interested in getting involved in things like this I suggest taking a
+look at <a href="http://data.nasa.gov/">data.nasa.gov</a> and <a href="http://spaceappschallenge.org/">International Space Apps
+Challenge</a>.</p>
+<p>You can also <a href="http://natronics.github.com/ISS-photo-locations/">download the data I scraped from my github page</a>.</p>
+<p>[giant database of all the photographs astronauts have ever taken in
+  space]:&nbsp;http://eol.jsc.nasa.gov/</p>
+					</div>
+	            </article>
+
+		</div>
+	</div>
+</div>
+	
+<footer class="contentInfo" role="contentInfo">
+	<div class="container">
+		<div class="content">
+			<div class="content_area">
+				<p>openNASA - an intentional, collaborative experiment in open, transparent, and direct communication about your space program. This website is maintained by <a href="https://github.com/openNASA/openNASA.github.io/graphs/contributors">former members</a> of the openNASA team but is not an official US Government site.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	
+</body>
+</html>

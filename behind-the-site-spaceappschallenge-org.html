@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>openNASA</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Merriweather:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+	
+	<!-- Additional critical CSS -->
+	<link href="/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+	
+	<!-- RSS Feeds -->
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="openNASA ATOM Feed"/>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header role="banner" class="banner banner_image" style="background-image:url('/theme/images/earthrise.jpg')">
+		<div class="container">
+			<div class="content">
+				<hgroup class="content_area">
+					<h1><a href="/">open<span class="nasa">NASA</span></a></h1>
+				</hgroup>
+			</div>
+	</header>
+	
+<div class="container homepage">
+	<div class="content">
+		<div class="content_area">
+			<div class="intro">
+				<p>In 2007, a small group of people began an intentional, collaborative experiment in open, transparent, and direct communication about your space program. Our goal was to enable your direct participation in exploring and contributing to NASA’s mission.</p>
+			
+				<p>Many of us have since begun new adventures. This site will remain as an archive of the accomplishments of the openNASA experiment.</p>
+			</div>
+			
+	            <article>
+<header>
+	<a class="article_info" href="/behind-the-site-spaceappschallenge-org.html">
+    <h2>Behind the Site:&nbsp;spaceappschallenge.org</h2>
+	<div class="meta">By Sean Herron, 06 April 2012</div>
+	</a>
+	<a href="#" class="gravatar">
+		<img src="http://www.gravatar.com/avatar/00000000000000000000000000000000?s=50&d=mm" alt="Sean Herron">
+	</a>
+</header>					<div class="article_content">
+						<p>If you follow openNASA, you’ve no doubt heard of the <a href="http://spaceappschallenge.org">International
+Space Apps Challenge</a> – our global codeathon taking place on all seven
+continents and in space next month. Last month, we launched a new
+<a href="http://spaceappschallenge.org">website</a> for the Challenge that
+allows visitors to sign up for events, view and submit challenges, and
+learn more about the event. We put a lot of effort in to making it
+cutting edge by using the latest web technologies and standards to
+provide an excellent user experience. This post will showcase just some
+of the methods we used to make the site, and give you some ideas for
+creating one&nbsp;yourself.</p>
+<p>[<img alt="" src="http://open.nasa.gov/wp-content/uploads/2012/03/Screen-shot-2012-03-23-at-2.09.24-AM-300x241.png" title="Screen shot 2012-03-23 at 2.09.24 AM" />][]</p>
+<p><strong>The&nbsp;Methodology</strong></p>
+<p>One of the biggest challenges in creating the site was that, due to our
+global audience, we had to ensure the site is compatible and accessible
+across a wide range of devices, screen sizes, and internet speeds. The
+site is fully responsive, meaning that by using some <span class="caps">HTML</span> and <span class="caps">CSS</span>
+trickery, we’re able to serve up different designs depending on the
+user’s screen size. Try it now – visit
+<a href="http://spaceappschallenge.org">spaceappschallenge.org</a> on a
+smartphone and a desktop at the same time. You’ll see two different
+designs, even though each uses the same <span class="caps">HTML</span>&nbsp;files.</p>
+<p>Responsive design is becoming increasingly important on the web as more
+and more users access websites using smartphones, tablets, and other
+small devices. By optimizing the site to a range of user experiences, we
+don’t lock people in to viewing a design best suited for a desktop&nbsp;monitor.</p>
+<p>The site also makes much use of the <span class="caps">HTML5</span> and <span class="caps">CSS3</span> standards. <span class="caps">CSS3</span>
+allows us to duplicate a lot of the design features that previously
+required images, meaning that pages load faster and our design is more
+flexible. The framework of the site is built off of a combination of the
+<a href="http://getskelton.com">Skelton</a> flexible grid system, with some design elements taken from
+<a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>. We also make use of <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a>, which
+allows us to use a webfont for icons rather than images. By using these
+forward-leaning practices, we can considerably cut down on file sizes
+and offer a faster and more accessible experience to&nbsp;visitors.</p>
+<p>Accessibility for us also meant making the site available in as many
+different ways as possible. For instance, much of our content is encoded
+in <a href="http://microformats.org/">Microformats</a>, which extends our <span class="caps">HTML</span> in a semantic way to be
+understandable by machines. Additionally, we&#8217;re working with our
+location partners to offer translations of content where appropriate.
+The Tokyo location, for instance, offers a <a href="http://tokyo.spaceappschallenge.org">Japanese translation</a>.</p>
+<p><strong>The&nbsp;Backend</strong></p>
+<p>Apart from our design philosophy, we also strived to create a backend
+system that enables flexibility, stability, and performance. The site is
+hosted on a cloud platform running Linux and powered by <a href="http://nginx.org/">nginx</a> and
+<a href="http://www.postgresql.org/">Postgres</a>. While our sites have traditionally run on <a href="http://wordpress.org">WordPress</a>,
+we decided to go with a Django-based platform. This is due to some of
+the particular needs of the site, such as event registration and project
+collaboration. We utilize extensive server-side caching to improve
+performance and automatically compress and minify our <span class="caps">HTML</span>, <span class="caps">CSS</span>, and
+Javascript. On the design side, our templates were styled using <a href="http://lesscss.org"><span class="caps">LESS</span></a>
+and we used the helpLESS library to help us do some common tasks more&nbsp;effectively.</p>
+<p><strong>Design&nbsp;Philosophy</strong></p>
+<p>Ultimately, the technologies and methodologies I have written about are
+the things that the end-user is least likely to care about. On the web,
+design is paramount. We wanted the Apps Challenge site to be visually
+striking and immediately impart a sense of global collaboration to the
+visitor. We spent a lot of effort on creating the main design element on
+the front page - the map of the world with tags for every location where
+the Space Apps Challenge is taking place. Now, doing this with a map of
+the Earth is pretty easy (which is lucky, because we&#8217;ve been adding
+locations left and right recently!). The difficult part is showing the
+highest and fastest-moving location: the International Space Station. We
+first experimented with just showing a static icon of the station over
+the pacific ocean. Pretty boring. We decided it had to be animated and
+move across the screen. Here&#8217;s a little secret, however: the station
+does not actually show up where it really is on the planet. We
+experimented with making the image live-update as the station crossed
+over the globe, but ultimately decided not to for a few&nbsp;reasons:</p>
+<p>​1) The code required to do so would be much heavier than we were
+willing to put on the site.<br />
+2) The projection of the map on the homepage is slightly different than
+the projections of most orbital tracks posted by <span class="caps">NASA</span>, meaning that we
+would have had to translate coordinates to our projection.<br />
+3) The station would have moved realllllly slowly on the screen. Most
+users probably wouldn&#8217;t have even noticed&nbsp;it.</p>
+<p>Thus, we made a small sacrifice - instead, the station follows an
+orbital-like wave across the map using jQuery animation and the <a href="https://github.com/weepy/jquery.path">path
+plugin</a>.</p>
+<p>Beyond the homepage, we focused on making the site lightweight but
+incorporating design elements that reinforce that feeling of global
+collaboration - Google Maps integration, for&nbsp;instance.</p>
+<p><strong>Conclusion</strong></p>
+<p>I hope this post has given you at least a glimpse into our web
+philosophy and the direction in which we see taking our other properties
+(<a href="open.nasa.gov">open.nasa.gov</a>, <a href="data.nasa.gov">data.nasa.gov</a>, and <a href="code.nasa.gov">code.nasa.gov</a>) in the
+future. We see the recent trend of accessible <span class="amp">&amp;</span> responsive design as
+critical to the next generation of web experiences. Our goal is to make
+our content as open, accessible, and flexible as possible. We are open
+to feedback and ideas about how we can further this even more - please
+leave a comment and let us know what you think! Finally, none of what
+we&#8217;ve accomplished on the site would have been possible without the help
+of everyone on the Space Apps Challenge team, including Kristen
+Painting, Ali Llewellyn, Nick Skytland, Elizabeth Sabet, Chris Gerty,
+and William Eshagh. William was core in creating the backend of the site
+to go along with the frontend I developed - without him, we&#8217;d have no
+django, no server, and no&nbsp;site.</p>
+<p>If you&#8217;re interested in hearing more about our approach to web
+development and user experience, see my <a href="http://wordpress.tv/2012/03/06/sean-herron-how-non-profits-and-government-organizations-of-all-sizes-can-use-wordpress-to-successfully-create-and-operate-a-website/">recent talk</a> from WordCamp
+Phoenix on the&nbsp;topic.</p>
+<p>[<img alt="" src="http://open.nasa.gov/wp-content/uploads/2012/03/Screen-shot-2012-03-23-at-2.09.24-AM-300x241.png" title="Screen shot 2012-03-23 at 2.09.24 AM" />]: http://open.nasa.gov/wp-content/uploads/2012/03/Screen-shot-2012-03-23-at-2.09.24-<span class="caps">AM</span>.png</p>
+					</div>
+	            </article>
+
+		</div>
+	</div>
+</div>
+	
+<footer class="contentInfo" role="contentInfo">
+	<div class="container">
+		<div class="content">
+			<div class="content_area">
+				<p>openNASA - an intentional, collaborative experiment in open, transparent, and direct communication about your space program. This website is maintained by <a href="https://github.com/openNASA/openNASA.github.io/graphs/contributors">former members</a> of the openNASA team but is not an official US Government site.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
