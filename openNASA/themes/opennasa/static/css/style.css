@@ -5813,6 +5813,20 @@ header.banner.banner_image {
     background-size: cover;
   }
 }
+footer.contentInfo {
+  color: #fff;
+  background: #000;
+  font-weight: 300;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+footer.contentInfo a {
+  color: #1a7fe0;
+}
+footer.contentInfo a:hover {
+  color: #5aa5ec;
+}
 .intro {
   font-style: italic;
   width: 90%;
